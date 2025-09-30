@@ -12,7 +12,7 @@ function App() {
         </span>
       </div>
 
-<header className="w-full p-4 md:p-6">
+<header className="w-full p-4 md:py-6 md:px-2">
   {/* --- Container principal --- */}
   {/* A classe de altura foi alterada de h-[85vh] para h-[95vh] */}
   <div className="relative max-w-7xl mx-auto w-full h-[95vh] rounded-3xl overflow-hidden shadow-2xl">
