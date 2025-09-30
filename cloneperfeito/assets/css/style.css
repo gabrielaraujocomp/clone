@@ -1,3 +1,17 @@
+/* STATIC MODE: desliga o ocultamento do Framer */
+[data-framer-hydrate],
+[data-framer-hydrate-v2],
+[data-framer-ssr],
+[data-framer-component-type] {
+  opacity: 1 !important;
+  visibility: visible !important;
+  filter: none !important;
+}
+
+.ssr-variant { display: block !important; }
+[class*="hidden-"] { display: block !important; opacity: 1 !important; visibility: visible !important; }
+
+
 /* === Combined from inline <style> blocks (Framer export) === */
 
 /* --- block 1 --- */
