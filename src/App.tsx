@@ -128,7 +128,10 @@ const scrollToPricing = () => {
           cinematográfica, cenários variados e consistência visual, tudo em
           minutos, sem precisar de câmera, fotógrafo ou locação.
         </p>
-       <button onClick={scrollToPricing} className="bg-black text-white px-12 py-3 rounded-xl font-semibold hover:bg-gray-800 transition-colors">
+       <button 
+  onClick={scrollToPricing} 
+  className="bg-black text-white font-semibold py-3 px-12 rounded-xl w-full transition-all duration-300 ease-in-out transform hover:scale-105 hover:-translate-y-1"
+>
   Garantir acesso!
 </button>
       </div>
@@ -162,9 +165,12 @@ const scrollToPricing = () => {
           pequenas e grandes empresas estão dispostas a pagar caro e você
           aprende aqui do zero.
         </p>
-         <button onClick={scrollToPricing} className="bg-white text-black font-semibold text-lg py-4 px-12 rounded-full shadow-lg hover:bg-gray-200 transition-colors w-full max-w-sm">
-              Garantir acesso!
-            </button>
+         <button 
+  onClick={scrollToPricing} 
+  className="bg-black text-white font-semibold py-3 px-12 rounded-xl w-full transition-all duration-300 ease-in-out transform hover:scale-105 hover:-translate-y-1"
+>
+  Garantir acesso!
+</button>
       </div>
       
       {/* Bloco de Imagem Única */}
@@ -195,9 +201,12 @@ const scrollToPricing = () => {
           Obs: Os vídeos da página não estão com qualidade 4K por conta do
           peso, ira travar tudo e prejudicar sua experiência na página rs
         </p>
-         <button onClick={scrollToPricing} className="bg-white text-black font-semibold text-lg py-4 px-12 rounded-full shadow-lg hover:bg-gray-200 transition-colors w-full max-w-sm">
-              Garantir acesso!
-            </button>
+         <button 
+  onClick={scrollToPricing} 
+  className="bg-black text-white font-semibold py-3 px-12 rounded-xl w-full transition-all duration-300 ease-in-out transform hover:scale-105 hover:-translate-y-1"
+>
+  Garantir acesso!
+</button>
       </div>
 
       {/* Bloco de Vídeo */}
@@ -242,9 +251,12 @@ const scrollToPricing = () => {
         </p>
 
         {/* Botão com estilo "outline" */}
-        <button onClick={scrollToPricing} className="bg-white text-black font-semibold text-lg py-4 px-12 rounded-full shadow-lg hover:bg-gray-200 transition-colors w-full max-w-sm">
-              Garantir acesso!
-            </button>
+        <button 
+  onClick={scrollToPricing} 
+  className="bg-black text-white font-semibold py-3 px-12 rounded-xl w-full transition-all duration-300 ease-in-out transform hover:scale-105 hover:-translate-y-1"
+>
+  Garantir acesso!
+</button>
       </div>
 
       {/* A coluna da direita permanece a mesma */}
@@ -560,7 +572,7 @@ const scrollToPricing = () => {
       href="https://api.whatsapp.com/send?phone=5511978610717&text=Ol%C3%A1!%20Tenho%20uma%20d%C3%BAvida%20sobre%20o%20Clone%20Perfeito,%20pode%20me%20ajudar?"
       target="_blank"
       rel="noopener noreferrer"
-      className="inline-block bg-black text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-800 transition-colors shadow-lg mt-12"
+      className="inline-block bg-black text-white px-12 py-3 rounded-full text-lg font-semibold hover:bg-gray-800 transition-colors shadow-lg mt-12"
     >
       Mais alguma dúvida? Fale comigo no WhatsApp!
     </a>
