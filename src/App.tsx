@@ -41,6 +41,10 @@ const scrollToTop = () => {
     { src: '/img/depoimento-4.png', alt: 'Depoimento de aluno 4' },
     { src: '/img/depoimento-5.png', alt: 'Depoimento de aluno 5' },
   ];
+
+const scrollToPricing = () => {
+  document.getElementById('pricing-section')?.scrollIntoView({ behavior: 'smooth' });
+};
   
   return (
 
@@ -95,9 +99,9 @@ const scrollToTop = () => {
         e monetização com Inteligência artificial.
       </p>
 
-      <button className="bg-white text-black font-semibold text-lg py-3 px-12 rounded-xl shadow-lg hover:bg-gray-200 transition-colors w-full max-w-sm">
-        Garantir acesso!
-      </button>
+      <button onClick={scrollToPricing} className="bg-white text-black font-semibold text-lg py-4 px-12 rounded-full shadow-lg hover:bg-gray-200 transition-colors w-full max-w-sm">
+              Garantir acesso!
+            </button>
     </div>
   </div>
 </header>
