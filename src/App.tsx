@@ -436,109 +436,79 @@ const scrollToPricing = () => {
 {/* ================================================================== */}
 {/* SEÇÃO DE PREÇO */}
 {/* ================================================================== */}
-<section id="pricing-section" className="bg-white py-16 lg:py-24 px-6">
+<section id="pricing-section" className="bg-gray-900 py-16 lg:py-24 px-6">
   <div className="max-w-6xl mx-auto text-center">
     {/* --- Tag e Título --- */}
-    <div className="inline-block border border-gray-300 px-4 py-1 rounded-full text-xs font-medium mb-6 text-black">
+    <div className="inline-block border border-gray-600 px-4 py-1 rounded-full text-xs font-medium mb-6 text-gray-300">
       INVESTIMENTO
     </div>
-    <h2 className="text-4xl lg:text-5xl font-bold mb-12 text-black max-w-4xl mx-auto">
+    <h2 className="text-4xl lg:text-5xl font-bold mb-16 text-white max-w-4xl mx-auto">
       Invista em uma habilidade que já se paga no seu primeiro cliente
     </h2>
 
-    {/* --- Container Principal Preto/Cinza --- */}
-    <div className="bg-gray-900 rounded-2xl text-white text-left p-8 md:p-12">
-      <div className="grid lg:grid-cols-2 gap-12">
-        
-        {/* --- Coluna da Esquerda: O que está incluso --- */}
-        <div>
-          <h3 className="text-2xl font-bold mb-6">O que está incluso:</h3>
-          <ul className="space-y-4">
-            
-            <li className="flex items-center gap-3 bg-green-500/20 text-green-100 p-3 rounded-lg">
-              <div className="bg-white/10 rounded-full p-1 flex-shrink-0">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M17.707 9.293a1 1 0 010 1.414l-7 7a1 1 0 01-1.414 0l-7-7A.997.997 0 012 10V5a1 1 0 011-1h5a1 1 0 01.707.293l7 7zM5 6a1 1 0 100-2 1 1 0 000 2z" clipRule="evenodd"></path></svg>
-              </div>
-              <span>Utilize o cupom <strong>clone50</strong> no pagamento!</span>
-            </li>
-
-            <li className="flex items-center gap-3">
-              <div className="bg-white/10 rounded-full p-1 flex-shrink-0"><svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg></div>
-              <span>Curso completo com os módulos (ensaios, vídeos em 4K, branding, edição final)</span>
-            </li>
-            {/* ... outros itens da lista ... */}
-            <li className="flex items-center gap-3">
-              <div className="bg-white/10 rounded-full p-1 flex-shrink-0"><svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg></div>
-              <span>Atualizações constantes: sempre que surgir ferramenta nova ou solução melhor, o conteúdo é atualizado</span>
-            </li>
-            <li className="flex items-center gap-3">
-              <div className="bg-white/10 rounded-full p-1 flex-shrink-0"><svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg></div>
-              <span>Acesso garantido por 12 meses</span>
-            </li>
-            <li className="flex items-center gap-3">
-              <div className="bg-white/10 rounded-full p-1 flex-shrink-0"><svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg></div>
-              <span>Agentes GPT exclusivo para prompts ultra-otimizados</span>
-            </li>
-             <li className="flex items-center gap-3">
-              <div className="bg-white/10 rounded-full p-1 flex-shrink-0"><svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg></div>
-              <span>Suporte direto comigo</span>
-            </li>
-          </ul>
-        </div>
-
-        {/* --- Coluna da Direita: Preço --- */}
-        <div className="bg-black/30 rounded-2xl p-8 flex flex-col text-center">
-          <div className="flex-grow">
-            <p className="font-semibold">Acesso Anual <span className="bg-white text-gray-900 text-xs px-2 py-1 rounded-full ml-2">Desconto Temporário</span></p>
-            <p className="text-lg my-4">De <span className="line-through">R$ 497</span> por apenas</p>
-            <p className="text-5xl md:text-6xl font-bold leading-none">
-              12x de R$ 25
-            </p>
-            <p className="mt-2">ou R$247 à vista</p>
-          </div>
-          
-          <a 
-  href="https://pay.hotmart.com/P100679254E?off=82l7lflg&checkoutMode=10&bid=1759268952273"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-green-500 text-white font-bold py-4 px-8 rounded-lg w-full mt-8 hover:bg-green-600 transition-colors flex items-center justify-center gap-2"
->
-  Garantir acesso!
-  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
-</a>
-          
-          <div className="flex items-center justify-center gap-2 text-sm mt-4 text-white/60">
-            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd"></path></svg>
-            <span>7 dias de garantia incondicional e sem letras miúdas.</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    {/* --- NOVA SEÇÃO: Checkout Seguro e Descontos --- */}
-    <div className="grid md:grid-cols-2 gap-8 mt-12 text-black text-left">
-      {/* Coluna Desconto para Empresas */}
-      <div className="flex gap-4 items-start">
-        <div className="flex-shrink-0">
-           {/* Ícone de Desconto */}
-           <svg className="w-8 h-8 text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" /></svg>
-        </div>
-        <div>
-          <h4 className="font-bold">Desconto para Empresas</h4>
-          <p className="text-gray-600 text-sm">Condição especial para levar acessos para todo o seu time.</p>
-          <a href="https://api.whatsapp.com/send?phone=5511978610717&text=Olá! Quero a condição especial para meu time!" className="text-green-600 font-semibold text-sm hover:underline">Quero saber mais sobre o desconto →</a>
-        </div>
-      </div>
+    <div className="grid lg:grid-cols-5 gap-8 lg:gap-12 text-left">
       
-      {/* Coluna Checkout Hotmart */}
-      <div className="flex gap-4 items-start">
-        <div className="flex-shrink-0">
-          {/* Ícone de Segurança */}
-          <svg className="w-8 h-8 text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.286zm0 13.036h.008v.008h-.008v-.008z" /></svg>
+      {/* --- Coluna da Esquerda: O que está incluso (3/5 da largura) --- */}
+      <div className="lg:col-span-3">
+        <h3 className="text-2xl font-bold mb-6 text-white">O que está incluso:</h3>
+        <ul className="space-y-5 text-gray-300">
+          
+          <li className="flex items-start gap-3 bg-green-500/10 text-green-200 p-4 rounded-lg border border-green-500/20">
+            <div className="flex-shrink-0 mt-1"><svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M17.707 9.293a1 1 0 010 1.414l-7 7a1 1 0 01-1.414 0l-7-7A.997.997 0 012 10V5a1 1 0 011-1h5a1 1 0 01.707.293l7 7zM5 6a1 1 0 100-2 1 1 0 000 2z" clipRule="evenodd"></path></svg></div>
+            <span>Utilize o cupom <strong>clone50</strong> no pagamento!</span>
+          </li>
+
+          <li className="flex items-start gap-3">
+            <div className="text-green-500 flex-shrink-0 mt-1"><svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg></div>
+            <span>Curso completo com todos os módulos (ensaios, vídeos em 4K, branding, edição final)</span>
+          </li>
+          <li className="flex items-start gap-3">
+            <div className="text-green-500 flex-shrink-0 mt-1"><svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg></div>
+            <span>Atualizações constantes: sempre que surgir ferramenta nova ou solução melhor, o conteúdo é atualizado</span>
+          </li>
+          <li className="flex items-start gap-3">
+            <div className="text-green-500 flex-shrink-0 mt-1"><svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg></div>
+            <span>Acesso garantido por 12 meses</span>
+          </li>
+          <li className="flex items-start gap-3">
+            <div className="text-green-500 flex-shrink-0 mt-1"><svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg></div>
+            <span>Agentes GPT exclusivo para prompts ultra-otimizados</span>
+          </li>
+          <li className="flex items-start gap-3">
+            <div className="text-green-500 flex-shrink-0 mt-1"><svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg></div>
+            <span>Suporte direto comigo</span>
+          </li>
+        </ul>
+      </div>
+
+      {/* --- Coluna da Direita: Card de Preço (2/5 da largura) --- */}
+      <div className="relative bg-gray-900 border border-purple-500/30 rounded-2xl p-8 flex flex-col text-center shadow-2xl shadow-purple-500/20">
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-purple-600 text-white text-xs font-bold uppercase px-4 py-1.5 rounded-full">
+          Oferta Especial
         </div>
-        <div>
-          <h4 className="font-bold">Checkout Seguro Hotmart</h4>
-          <p className="text-gray-600 text-sm">100% seguro. Sua compra está assegurada pela plataforma de pagamentos líder na América Latina.</p>
+        
+        <div className="flex-grow pt-8">
+          <p className="font-semibold text-white">Acesso Anual</p>
+          <p className="text-lg my-4 text-gray-400">De <span className="line-through">R$ 497</span> por apenas</p>
+          <p className="text-white text-6xl lg:text-7xl font-bold leading-none my-2">
+            12x <span className="text-green-400">R$ 25</span>
+          </p>
+          <p className="mt-2 text-gray-400">ou R$247 à vista</p>
+        </div>
+        
+        <a 
+          href="https://pay.hotmart.com/P100679254E?off=82l7lflg&checkoutMode=10&bid=1759268952273"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-green-500 text-white font-bold py-4 px-8 rounded-lg w-full mt-8 hover:bg-green-600 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2"
+        >
+          Garantir acesso!
+          <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
+        </a>
+        
+        <div className="flex items-center justify-center gap-2 text-sm mt-4 text-gray-500">
+          <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd"></path></svg>
+          <span>Garantia de 7 dias</span>
         </div>
       </div>
     </div>
