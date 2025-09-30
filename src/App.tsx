@@ -12,18 +12,15 @@ function App() {
         </span>
       </div>
 
-<header className="flex items-center justify-center p-4 md:p-8">
+<header className="w-full py-8 px-4 md:px-8">
   {/* --- Container principal com bordas arredondadas que segura o vídeo e o conteúdo --- */}
-  <div className="relative max-w-5xl w-full h-[85vh] rounded-3xl overflow-hidden shadow-2xl">
+  <div className="relative max-w-7xl mx-auto w-full h-[85vh] rounded-3xl overflow-hidden shadow-2xl">
     {/* --- VÍDEO DE FUNDO --- */}
     <video
-      // O vídeo tocará automaticamente, em loop e sem som.
       autoPlay
       loop
       muted
-      // Este `src` é um placeholder. Você vai trocá-lo no próximo passo.
-      src="/videos/clone-background.mp4"
-      // As classes abaixo garantem que o vídeo preencha todo o container.
+      src="/videos/clone-background.mp4" // <-- Lembre-se de trocar este nome
       className="absolute z-0 w-full h-full object-cover"
     ></video>
 
@@ -33,7 +30,6 @@ function App() {
     {/* --- Conteúdo Central (Textos e Botão) --- */}
     <div className="relative z-20 h-full flex flex-col items-center justify-center text-center max-w-3xl mx-auto text-white p-4">
       <div className="mb-8 flex justify-center">
-        {/* Você pode substituir este SVG pelo seu logo */}
         <svg
           className="w-12 h-12 text-white"
           fill="currentColor"
