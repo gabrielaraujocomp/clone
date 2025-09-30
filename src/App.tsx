@@ -51,8 +51,8 @@ function App() {
 
       <div className="bg-[#00c56e]/20 backdrop-blur-sm p-4 rounded-2xl inline-block">
         
-<button className="bg-[#00c56e] text-white px-16 py-4 rounded-full text-lg font-semibold hover:bg-[#00b05f] transition-colors shadow-lg max-w-xs w-full mx-auto block">
-  Garantir aaacesso!
+<button className="bg-white text-black font-semibold text-lg py-4 px-12 rounded-full shadow-lg hover:bg-gray-200 transition-colors w-full max-w-sm">
+  Garantir acesso!
 </button>
         
       </div>
