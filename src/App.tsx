@@ -103,7 +103,9 @@ const scrollToPricing = () => {
 {/* ================================================================== */}
 {/* SUBSTITUA A SEÇÃO "O QUE É O CURSO" POR ESTA NOVA VERSÃO */}
 {/* ================================================================== */}
-<div className="mt-16 bg-gray-900 rounded-3xl p-8 lg:p-12 text-white max-w-5xl mx-auto">
+
+        
+<div className="mt-16 bg-gray-900 rounded-3xl p-8 lg:p-12 text-white">
   <div className="grid md:grid-cols-2 gap-12 items-center">
     
     {/* --- Coluna da Esquerda: Textos --- */}
