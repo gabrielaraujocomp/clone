@@ -105,7 +105,7 @@ const scrollToPricing = () => {
 {/* ================================================================== */}
 
         
-<div className="mt-16 bg-gray-900 rounded-3xl p-8 lg:p-12 text-white">
+<div className="mt-16 bg-gray-900 rounded-3xl p-8 lg:p-12 text-white w-[calc(100%-2rem)] mx-auto">
   <div className="grid md:grid-cols-2 gap-12 items-center">
     
     {/* --- Coluna da Esquerda: Textos --- */}
