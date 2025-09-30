@@ -52,7 +52,7 @@ const scrollToTop = () => {
             OFERTA
           </span>
           <span className="text-sm">
-            Utilize o cupom <strong>clona50</strong> para garantir a oferta de lançamento :)
+            Aplique o cupom <strong>clone50</strong> para garantir com 50% OFF!
           </span>
         </span>
       </div>
@@ -516,8 +516,8 @@ const scrollToTop = () => {
         </div>
         <div>
           <h4 className="font-bold">Desconto para Empresas</h4>
-          <p className="text-gray-600 text-sm">Condição especial para levar o acesso da plataforma para todo o seu time.</p>
-          <a href="#" className="text-green-600 font-semibold text-sm hover:underline">Quero saber mais sobre o desconto →</a>
+          <p className="text-gray-600 text-sm">Condição especial para levar acessos para todo o seu time.</p>
+          <a href="https://api.whatsapp.com/send?phone=5511978610717&text=Olá! Quero a condição especial para meu time!" className="text-green-600 font-semibold text-sm hover:underline">Quero saber mais sobre o desconto →</a>
         </div>
       </div>
       
@@ -557,9 +557,9 @@ const scrollToTop = () => {
       {faqData.map((item, index) => (
         <div key={index} className="border border-gray-200 rounded-xl p-1">
           <button
-            onClick={() => setOpenFaq(openFaq === index ? null : index)}
-            className="w-full flex justify-between items-center text-lg font-medium text-black p-5 focus:outline-none"
-          >
+  onClick={() => setOpenFaq(openFaq === index ? null : index)}
+  className="w-full flex justify-between items-center text-lg font-medium text-black p-5 focus:outline-none text-left"
+>
             <span>{item.question}</span>
             {/* Ícone de + ou - */}
             <span className={`transform transition-transform duration-300 ${openFaq === index ? 'rotate-45' : ''}`}>
@@ -568,7 +568,7 @@ const scrollToTop = () => {
           </button>
           {/* Resposta que abre e fecha */}
           <div className={`overflow-hidden transition-all duration-500 ease-in-out ${openFaq === index ? 'max-h-96' : 'max-h-0'}`}>
-            <div className="p-5 pt-0 text-gray-600">
+            <div className="p-5 pt-0 text-gray-600 text-left">
               {item.answer}
             </div>
           </div>
@@ -578,7 +578,7 @@ const scrollToTop = () => {
 
     {/* --- Botão do WhatsApp --- */}
     <a
-      href="https://wa.me/SEUNUMERO" // <-- IMPORTANTE: Troque SEUNUMERO pelo seu número de WhatsApp
+      href="https://api.whatsapp.com/send?phone=5511978610717&text=Ol%C3%A1!%20Tenho%20uma%20d%C3%BAvida%20sobre%20o%20Clone%20Perfeito,%20pode%20me%20ajudar?"
       target="_blank"
       rel="noopener noreferrer"
       className="inline-block bg-black text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-800 transition-colors shadow-lg mt-12"
