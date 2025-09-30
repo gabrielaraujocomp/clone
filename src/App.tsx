@@ -588,18 +588,24 @@ const scrollToPricing = () => {
       
       {/* --- Coluna da Esquerda: Info e CTA --- */}
       <div className="lg:col-span-2">
-        {/* Logo */}
-        <a href="#" className="inline-block text-2xl font-bold mb-6">
-          <span className="bg-white text-black px-2 py-1 rounded-md mr-1">Clone</span>
-          <span className="text-white">Perfeito</span>
+        {/* Logo como Imagem */}
+        <a href="#" className="inline-block mb-6">
+          <img src="/img/clone-perfeito-logo.svg" alt="Logo Clone Perfeito" className="h-10 w-auto" />
         </a>
-        <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-white">
-          Invista em uma habilidade de alto valor.
+        
+        {/* Nova Frase de Impacto */}
+        <h2 className="text-3xl lg:text-4xl font-bold text-white">
+          "A melhor forma de prever o futuro é inventá-lo."
         </h2>
-        <p className="text-gray-400 mb-8 max-w-lg">
-          O Clone Perfeito foi projetado para te fornecer todas as ferramentas necessárias para dominar a criação de conteúdo com IA e alcançar seus objetivos na área.
+        <p className="text-gray-400 mt-4 mb-8 max-w-lg">
+          - Alan Kay
         </p>
-        <a href="https://pay.hotmart.com/P100679254E?off=82l7lflg&checkoutMode=10&bid=1759268952273" className="inline-block bg-green-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-green-600 transition-colors">
+        
+        <a 
+          href="#pricing-section" 
+          onClick={(e) => { e.preventDefault(); scrollToPricing(); }} 
+          className="inline-block bg-green-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-green-600 transition-colors"
+        >
           Garantir meu acesso!
         </a>
       </div>
@@ -615,14 +621,12 @@ const scrollToPricing = () => {
           rel="noopener noreferrer" 
           className="flex items-center gap-4 border border-gray-700 rounded-xl p-4 hover:bg-gray-800 transition-colors"
         >
-          {/* Ícone do Instagram */}
           <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.584.069-4.85c.149-3.225 1.664 4.771 4.919-4.919C8.416 2.175 8.796 2.163 12 2.163zm0 1.802c-3.116 0-3.483.011-4.695.068-2.618.12-3.635 1.131-3.753 3.753C3.512 8.983 3.5 9.351 3.5 12s.011 3.017.068 4.23c.118 2.622 1.135 3.633 3.753 3.752.951.043 1.22.056 4.695.056s3.745-.013 4.695-.056c2.618-.119 3.635-1.13 3.753-3.752.057-1.213.068-1.581.068-4.23s-.011-3.017-.068-4.23c-.118-2.622-1.135-3.633-3.753-3.753C15.524 3.976 15.156 3.965 12 3.965zM12 8.25a3.75 3.75 0 100 7.5 3.75 3.75 0 000-7.5zm0 1.5a2.25 2.25 0 110 4.5 2.25 2.25 0 010-4.5zM16.95 6.45a1.2 1.2 0 100 2.4 1.2 1.2 0 000-2.4z"></path></svg>
           <span className="font-semibold text-white">@cloneperfeito</span>
         </a>
       </div>
     </div>
     
-    {/* --- Barra Inferior --- */}
     <hr className="my-12 border-gray-700" />
     
     <div className="flex flex-col md:flex-row items-center justify-between gap-6 text-sm">
@@ -637,7 +641,6 @@ const scrollToPricing = () => {
         className="bg-black text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-gray-800 transition-colors"
         aria-label="Voltar ao topo"
       >
-        {/* Ícone de Seta para Cima */}
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 15l7-7 7 7"></path></svg>
       </button>
     </div>
