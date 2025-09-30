@@ -33,6 +33,14 @@ const scrollToTop = () => {
       behavior: 'smooth'
     });
   };
+
+      const testimonials = [
+    { src: '/img/depoimento-1.png', alt: 'Depoimento de aluno 1' },
+    { src: '/img/depoimento-2.png', alt: 'Depoimento de aluno 2' },
+    { src: '/img/depoimento-3.png', alt: 'Depoimento de aluno 3' },
+    { src: '/img/depoimento-4.png', alt: 'Depoimento de aluno 4' },
+    { src: '/img/depoimento-5.png', alt: 'Depoimento de aluno 5' },
+  ];
   
   return (
 
@@ -389,101 +397,37 @@ const scrollToTop = () => {
   </div>
 </section>
 
-      <section className="py-16 px-6 bg-gray-50">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12">
-            <div className="text-sm font-medium text-gray-500 mb-4 uppercase tracking-wide">
-              Mais de 350 alunos
-            </div>
-            <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-              O que os alunos dizem...
-            </h2>
-            <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-              Alunos de diferentes áreas já estão criando ensaios, vídeos e conteúdos profissionais com IA e colhendo resultados reais em pouco tempo de aplicação.
-            </p>
-          </div>
+     {/* ================================================================== */}
+{/* SUBSTITUA A SEÇÃO "O QUE OS ALUNOS DIZEM" ANTIGA POR ESTA */}
+{/* ================================================================== */}
+<section className="py-16 lg:py-24 px-6 bg-gray-50">
+  <div className="max-w-6xl mx-auto">
+    <div className="text-center mb-16">
+      <div className="text-sm font-medium text-gray-500 mb-4 uppercase tracking-wide">
+        Mais de 350 alunos
+      </div>
+      <h2 className="text-4xl lg:text-5xl font-bold mb-6 text-black">
+        O que os alunos dizem...
+      </h2>
+      <p className="text-lg text-gray-700 max-w-3xl mx-auto">
+        Alunos de diferentes áreas já estão criando ensaios, vídeos e conteúdos profissionais com IA e colhendo resultados reais em pouco tempo de aplicação.
+      </p>
+    </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="bg-white rounded-2xl p-6 shadow-sm">
-              <div className="flex items-start gap-3 mb-4">
-                <div className="w-10 h-10 bg-gray-200 rounded-full flex-shrink-0"></div>
-                <div>
-                  <div className="font-semibold">João Silva</div>
-                  <div className="text-sm text-gray-500">Designer</div>
-                </div>
-              </div>
-              <p className="text-gray-700 leading-relaxed">
-                "Incrível! Consegui criar um ensaio fotográfico completo em menos de 1 hora. Meus clientes adoraram o resultado e já fechei 3 novos projetos."
-              </p>
-            </div>
-
-            <div className="bg-white rounded-2xl p-6 shadow-sm">
-              <div className="flex items-start gap-3 mb-4">
-                <div className="w-10 h-10 bg-gray-200 rounded-full flex-shrink-0"></div>
-                <div>
-                  <div className="font-semibold">Maria Santos</div>
-                  <div className="text-sm text-gray-500">E-commerce</div>
-                </div>
-              </div>
-              <p className="text-gray-700 leading-relaxed">
-                "Economizei milhares em fotografia de produtos. As imagens geradas são tão realistas que meus clientes nem percebem que são IA."
-              </p>
-            </div>
-
-            <div className="bg-white rounded-2xl p-6 shadow-sm">
-              <div className="flex items-start gap-3 mb-4">
-                <div className="w-10 h-10 bg-gray-200 rounded-full flex-shrink-0"></div>
-                <div>
-                  <div className="font-semibold">Pedro Costa</div>
-                  <div className="text-sm text-gray-500">Social Media</div>
-                </div>
-              </div>
-              <p className="text-gray-700 leading-relaxed">
-                "Os vídeos em 4K são perfeitos para meu Instagram. O engajamento aumentou 200% depois que comecei a usar as técnicas do curso."
-              </p>
-            </div>
-
-            <div className="bg-white rounded-2xl p-6 shadow-sm">
-              <div className="flex items-start gap-3 mb-4">
-                <div className="w-10 h-10 bg-gray-200 rounded-full flex-shrink-0"></div>
-                <div>
-                  <div className="font-semibold">Ana Rodrigues</div>
-                  <div className="text-sm text-gray-500">Influencer</div>
-                </div>
-              </div>
-              <p className="text-gray-700 leading-relaxed">
-                "Finalmente consigo produzir conteúdo de alta qualidade sem depender de fotógrafo. O curso mudou completamente meu workflow."
-              </p>
-            </div>
-
-            <div className="bg-white rounded-2xl p-6 shadow-sm">
-              <div className="flex items-start gap-3 mb-4">
-                <div className="w-10 h-10 bg-gray-200 rounded-full flex-shrink-0"></div>
-                <div>
-                  <div className="font-semibold">Carlos Mendes</div>
-                  <div className="text-sm text-gray-500">Freelancer</div>
-                </div>
-              </div>
-              <p className="text-gray-700 leading-relaxed">
-                "Já paguei o curso 10x só com ensaios fotográficos. A demanda é enorme e poucos sabem fazer com essa qualidade."
-              </p>
-            </div>
-
-            <div className="bg-white rounded-2xl p-6 shadow-sm">
-              <div className="flex items-start gap-3 mb-4">
-                <div className="w-10 h-10 bg-gray-200 rounded-full flex-shrink-0"></div>
-                <div>
-                  <div className="font-semibold">Luciana Ferreira</div>
-                  <div className="text-sm text-gray-500">Empreendedora</div>
-                </div>
-              </div>
-              <p className="text-gray-700 leading-relaxed">
-                "Criei toda a identidade visual da minha marca usando IA. O resultado ficou profissional e economizei muito com agências."
-              </p>
-            </div>
-          </div>
+    {/* --- Nova grade de imagens de depoimentos --- */}
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+      {testimonials.map((testimonial, index) => (
+        <div key={index} className="rounded-2xl shadow-lg overflow-hidden bg-white">
+          <img
+            src={testimonial.src}
+            alt={testimonial.alt}
+            className="w-full h-full object-cover"
+          />
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
 
 {/* ================================================================== */}
 {/* SEÇÃO DE PREÇO */}
