@@ -467,14 +467,12 @@ const scrollToPricing = () => {
         
         <div className="space-y-4 text-gray-600 text-lg mt-6">
           <p>
-            Minha missão é simples: te entregar o caminho mais rápido e seguro para dominar esse novo mercado de imagens e vídeos hiper-realistas com IA. Você não vai precisar perder horas quebrando a cabeça ou jogando dinheiro fora como eu fiz.
-
-Aqui você aprende com alguém que já testou tudo, separou o que funciona do que é só barulho, e condensou em um método claro e aplicável.
+            Meu nome é Gabriel, e eu sempre fui movido por duas coisas: curiosidade e inconformismo. Nunca aceitei fazer parte da multidão, prefiro aprender sozinho, testar até dar certo e achar meu próprio jeito de vencer. O Clone Perfeito é a prova disso: um método que carrega meu jeito de ser, direto, prático e sem enrolação.
           </p>
         </div>
 
         <p className="mt-8 font-serif italic text-2xl text-black">
-          [Seu Nome Completo]
+          Gabriel Araújo Costa
         </p>
       </div>
 
