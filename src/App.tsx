@@ -12,39 +12,55 @@ function App() {
         </span>
       </div>
 
-      <div className="flex items-center justify-center p-6 lg:p-12 bg-black">
-        <div className="max-w-5xl w-full aspect-square bg-black/50 backdrop-blur-sm rounded-3xl overflow-hidden">
-          <div className="relative w-full h-full flex items-center justify-center p-8 lg:p-16">
-            <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60"></div>
+<header className="flex items-center justify-center p-4 md:p-8">
+  {/* --- Container principal com bordas arredondadas que segura o vídeo e o conteúdo --- */}
+  <div className="relative max-w-5xl w-full h-[85vh] rounded-3xl overflow-hidden shadow-2xl">
+    {/* --- VÍDEO DE FUNDO --- */}
+    <video
+      // O vídeo tocará automaticamente, em loop e sem som.
+      autoPlay
+      loop
+      muted
+      // Este `src` é um placeholder. Você vai trocá-lo no próximo passo.
+      src="/videos/clone-background.mp4"
+      // As classes abaixo garantem que o vídeo preencha todo o container.
+      className="absolute z-0 w-full h-full object-cover"
+    ></video>
 
-            <div className="relative z-10 text-center max-w-3xl text-white">
-              <div className="mb-8 flex justify-center">
-                <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center">
-                  <svg
-                    className="w-8 h-8 text-black"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M21 3H3v18h18V3zm-10 7.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zM19 19H5v-2l4-4 4 4 6-6v8z" />
-                  </svg>
-                </div>
-              </div>
+    {/* --- Overlay (camada escura sobre o vídeo para legibilidade) --- */}
+    <div className="absolute inset-0 bg-black/60 z-10"></div>
 
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                Domine a criação de Imagens e Vídeos com Inteligência Artificial
-              </h1>
-
-              <p className="text-base md:text-lg lg:text-xl text-gray-300 mb-10 leading-relaxed">
-                A formação prática e completa para dominar a criação de clones hiper-realistas, ensaios fotográficos, vídeos virais, branding visual e monetização com Inteligência artificial.
-              </p>
-
-              <button className="bg-white text-black px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-colors shadow-lg">
-                Garantir acesso!
-              </button>
-            </div>
-          </div>
-        </div>
+    {/* --- Conteúdo Central (Textos e Botão) --- */}
+    <div className="relative z-20 h-full flex flex-col items-center justify-center text-center max-w-3xl mx-auto text-white p-4">
+      <div className="mb-8 flex justify-center">
+        {/* Você pode substituir este SVG pelo seu logo */}
+        <svg
+          className="w-12 h-12 text-white"
+          fill="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5-10-5-10 5z" />
+        </svg>
       </div>
+
+      <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight">
+        Domine a criação de Imagens e Vídeos com Inteligência Artificial
+      </h1>
+
+      <p className="text-base md:text-lg lg:text-xl text-gray-300 mb-10 leading-relaxed">
+        A formação prática e completa para dominar a criação de clones
+        hiper-realistas, ensaios fotográficos, vídeos virais, branding visual
+        e monetização com Inteligência artificial.
+      </p>
+
+      <div className="bg-[#00c56e]/20 backdrop-blur-sm p-4 rounded-2xl inline-block">
+        <button className="bg-white text-black px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-200 transition-colors shadow-lg">
+          Garantir acesso!
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
 
       <section className="py-16 lg:py-24 px-6">
         <div className="max-w-6xl mx-auto">
