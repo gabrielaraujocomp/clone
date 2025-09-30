@@ -103,11 +103,11 @@ const scrollToPricing = () => {
 {/* ================================================================== */}
 {/* SUBSTITUA A SEÇÃO "O QUE É O CURSO" POR ESTA NOVA VERSÃO */}
 {/* ================================================================== */}
-<div className="bg-gray-900 rounded-3xl p-8 lg:p-12 text-white"> {/* Fundo preto e arredondado */}
+<div className="mt-16 bg-gray-900 rounded-3xl p-8 lg:p-12 text-white max-w-5xl mx-auto">
   <div className="grid md:grid-cols-2 gap-12 items-center">
     
     {/* --- Coluna da Esquerda: Textos --- */}
-    <div className="text-left"> {/* Textos alinhados à esquerda */}
+    <div className="text-left">
       <div className="inline-block border border-gray-600 px-4 py-1 rounded-full text-xs font-medium mb-4 text-gray-300">
         O CLONE PERFEITO
       </div>
@@ -125,7 +125,7 @@ const scrollToPricing = () => {
     {/* --- Coluna da Direita: Imagem --- */}
     <div className="flex justify-center md:justify-end">
       <img
-        src="/img/curso-overview.jpg" // <-- Nome da sua imagem para esta seção
+        src="/img/curso-overview.jpg"
         alt="Visão geral do curso Clone Perfeito"
         className="w-full h-auto object-cover rounded-2xl"
       />
