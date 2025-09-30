@@ -467,7 +467,7 @@ const scrollToPricing = () => {
         
         <div className="space-y-4 text-gray-600 text-lg mt-6">
           <p>
-            Eeu sempre fui movido por duas coisas: curiosidade e inconformismo. Nunca aceitei fazer parte da multidão, prefiro aprender sozinho, testar até dar certo e achar meu próprio jeito de vencer. O Clone Perfeito é a prova disso: um método que carrega meu jeito de ser, direto, prático e sem enrolação.
+            eu sempre fui movido por duas coisas: curiosidade e inconformismo. Nunca aceitei fazer parte da multidão, prefiro aprender sozinho, testar até dar certo e achar meu próprio jeito de vencer. O Clone Perfeito é a prova disso: um método que carrega meu jeito de ser, direto, prático e sem enrolação.
           </p>
         </div>
       </div>
