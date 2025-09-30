@@ -179,7 +179,9 @@ const scrollToTop = () => {
           Obs: Os vídeos da página não estão com qualidade 4K por conta do
           peso, ira travar tudo e prejudicar sua experiência na página rs
         </p>
-         <button className="bg-black text-white px-12 py-3 rounded-xl font-semibold hover:bg-gray-800 transition-colors">Garantir acesso!</button>
+         <button className="bg-black text-white font-semibold text-lg py-3 px-12 rounded-xl shadow-lg hover:bg-gray-800 transition-colors w-full">
+  Garantir acesso!
+</button>
       </div>
 
       {/* Bloco de Vídeo */}
