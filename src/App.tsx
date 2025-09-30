@@ -349,27 +349,39 @@ const scrollToTop = () => {
 
 <section className="py-16 px-6">
   <div className="max-w-6xl mx-auto">
-    <div className="bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 rounded-3xl p-8 lg:p-12 overflow-hidden relative">
-      <div className="absolute inset-0 bg-black/30"></div>
+    <div className="bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 rounded-3xl p-8 lg:p-16 overflow-hidden relative">
+      <div className="absolute inset-0 bg-black/40"></div>
       
-      {/* Layout ajustado para centralizar o conteúdo */}
       <div className="relative z-10 text-center text-white">
-        <h2 className="text-3xl lg:text-4xl font-bold mb-8">
+        <h2 className="text-3xl lg:text-4xl font-bold">
           Estimativa de valor de venda do que você irá aprender
         </h2>
-        <div className="flex flex-wrap justify-center gap-8 lg:gap-16">
-          <div>
-            <div className="text-3xl font-bold mb-1">~R$500+</div>
-            <div className="text-sm text-gray-300">por ensaio</div>
+        {/* Frase adicionada abaixo do título */}
+        <p className="text-lg text-gray-300 mt-4 mb-12">
+          "Se eu vender UM ensaio, já paguei o curso inteiro!"
+        </p>
+
+        {/* --- Nova Seção de Preços Personalizada --- */}
+        <div className="grid md:grid-cols-3 gap-8">
+          
+          {/* Card 1: Ensaio */}
+          <div className="bg-black/20 p-6 rounded-2xl backdrop-blur-sm border border-white/10">
+            <p className="text-sm text-gray-300 mb-2">por ensaio</p>
+            <p className="text-4xl font-bold text-green-400">~R$500+</p>
           </div>
-          <div>
-            <div className="text-3xl font-bold mb-1">~R$300+</div>
-            <div className="text-sm text-gray-300">por vídeo 4k</div>
+          
+          {/* Card 2: Vídeo */}
+          <div className="bg-black/20 p-6 rounded-2xl backdrop-blur-sm border border-white/10">
+            <p className="text-sm text-gray-300 mb-2">por vídeo 4k</p>
+            <p className="text-4xl font-bold text-green-400">~R$300+</p>
           </div>
-          <div>
-            <div className="text-3xl font-bold mb-1">~R$3K+</div>
-            <div className="text-sm text-gray-300">por pacote de artes com IA</div>
+
+          {/* Card 3: Pacote de Artes */}
+          <div className="bg-black/20 p-6 rounded-2xl backdrop-blur-sm border border-white/10">
+            <p className="text-sm text-gray-300 mb-2">por pacote de artes com IA</p>
+            <p className="text-4xl font-bold text-green-400">~R$3K+</p>
           </div>
+
         </div>
       </div>
       
