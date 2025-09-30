@@ -229,9 +229,9 @@ const scrollToTop = () => {
         </p>
 
         {/* Botão com estilo "outline" */}
-        <button className="bg-transparent border-2 border-white text-white font-semibold py-3 px-6 rounded-xl hover:bg-white hover:text-[#2dccaa] transition-all duration-300 w-full md:w-auto self-start">
-          Garantir acesso!
-        </button>
+        <button className="bg-black text-white font-semibold text-lg py-3 px-12 rounded-xl shadow-lg hover:bg-gray-800 transition-colors w-full">
+  Garantir acesso!
+</button>
       </div>
 
       {/* --- Coluna da Direita: Imagem Única --- */}
