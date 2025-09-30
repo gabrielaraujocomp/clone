@@ -378,49 +378,6 @@ const scrollToPricing = () => {
         <p className="text-lg text-gray-300 mt-4 mb-12">
           "Se eu vender UM ensaio, já paguei o curso inteiro!"
         </p>
-
-{/* ================================================================== */}
-{/* NOVA SEÇÃO: SOBRE MIM */}
-{/* ================================================================== */}
-<section className="bg-white py-16 lg:py-24 px-6">
-  <div className="max-w-6xl mx-auto">
-    <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center">
-
-      {/* --- Coluna da Esquerda: Sua Foto --- */}
-      <div>
-        <img 
-          src="/img/sua-foto.jpg" // <-- TROCAR PELO NOME DA SUA FOTO
-          alt="Foto de [Seu Nome]" // <-- TROCAR PELO SEU NOME
-          className="rounded-2xl shadow-xl w-full aspect-[4/5] object-cover"
-        />
-      </div>
-
-      {/* --- Coluna da Direita: Descrição --- */}
-      <div className="text-black">
-        <p className="text-sm uppercase tracking-widest font-semibold text-green-600 mb-4">
-          Feito por quem é obcecado
-        </p>
-        <h2 className="text-4xl lg:text-5xl font-bold leading-tight">
-          O método criado por quem vive de IA, para quem quer viver de IA.
-        </h2>
-        
-        <div className="space-y-4 text-gray-600 text-lg mt-6">
-          <p>
-            Eu não sou apenas um instrutor; sou um praticante obcecado. Passei os últimos anos imerso no universo da inteligência artificial, testando centenas de ferramentas, desenvolvendo workflows e, o mais importante, gerando resultados financeiros reais com essa tecnologia.
-          </p>
-          <p>
-            O Clone Perfeito é a compilação de tudo que funciona. É o meu mapa do tesouro, um atalho validado que condensa anos de testes em um método passo a passo. Criei este curso não para te ensinar a usar uma ferramenta, mas para te ensinar a <strong className="text-gray-800">pensar e criar como um especialista</strong>, transformando IA em uma fonte de renda.
-          </p>
-        </div>
-
-        <p className="mt-8 font-serif italic text-2xl text-black">
-          [Seu Nome Completo]
-        </p>
-      </div>
-
-    </div>
-  </div>
-</section>
           
 
         {/* --- Nova Seção de Preços Personalizada --- */}
@@ -479,6 +436,48 @@ const scrollToPricing = () => {
           />
         </div>
       ))}
+    </div>
+  </div>
+</section>
+
+{/* ================================================================== */}
+{/* NOVA SEÇÃO: SOBRE MIM */}
+{/* ================================================================== */}
+<section className="bg-white py-16 lg:py-24 px-6">
+  <div className="max-w-6xl mx-auto">
+    <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center">
+
+      {/* --- Coluna da Esquerda: Sua Foto --- */}
+      <div>
+        <img 
+          src="/img/sua-foto.jpg" // <-- TROCAR PELO NOME DA SUA FOTO
+          alt="Foto de [Seu Nome]" // <-- TROCAR PELO SEU NOME
+          className="rounded-2xl shadow-xl w-full aspect-[4/5] object-cover"
+        />
+      </div>
+
+      {/* --- Coluna da Direita: Descrição --- */}
+      <div className="text-black">
+        <p className="text-sm uppercase tracking-widest font-semibold text-green-600 mb-4">
+          Feito por quem é obcecado
+        </p>
+        <h2 className="text-4xl lg:text-5xl font-bold leading-tight">
+          O método criado por quem vive de IA, para quem quer viver de IA.
+        </h2>
+        
+        <div className="space-y-4 text-gray-600 text-lg mt-6">
+          <p>
+            Minha missão é simples: te entregar o caminho mais rápido e seguro para dominar esse novo mercado de imagens e vídeos hiper-realistas com IA. Você não vai precisar perder horas quebrando a cabeça ou jogando dinheiro fora como eu fiz.
+
+Aqui você aprende com alguém que já testou tudo, separou o que funciona do que é só barulho, e condensou em um método claro e aplicável.
+          </p>
+        </div>
+
+        <p className="mt-8 font-serif italic text-2xl text-black">
+          [Seu Nome Completo]
+        </p>
+      </div>
+
     </div>
   </div>
 </section>
