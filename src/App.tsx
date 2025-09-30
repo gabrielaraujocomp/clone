@@ -12,15 +12,16 @@ function App() {
         </span>
       </div>
 
-<header className="w-full py-8 px-4 md:px-8">
-  {/* --- Container principal com bordas arredondadas que segura o vídeo e o conteúdo --- */}
-  <div className="relative max-w-7xl mx-auto w-full h-[85vh] rounded-3xl overflow-hidden shadow-2xl">
+<header className="w-full p-4 md:p-6">
+  {/* --- Container principal --- */}
+  {/* A classe de altura foi alterada de h-[85vh] para h-[95vh] */}
+  <div className="relative max-w-7xl mx-auto w-full h-[95vh] rounded-3xl overflow-hidden shadow-2xl">
     {/* --- VÍDEO DE FUNDO --- */}
     <video
       autoPlay
       loop
       muted
-      src="/videos/clone-background.mp4" // <-- Lembre-se de trocar este nome
+      src="/videos/clone-background.mp4" // <-- Lembre-se de que este nome é um placeholder
       className="absolute z-0 w-full h-full object-cover"
     ></video>
 
@@ -49,17 +50,13 @@ function App() {
         e monetização com Inteligência artificial.
       </p>
 
-
-        
-<button className="bg-white text-black font-semibold text-lg py-4 px-12 rounded-full shadow-lg hover:bg-gray-200 transition-colors w-full max-w-sm">
-  Garantir acesso!
-</button>
-        
-      
+      <button className="bg-white text-black font-semibold text-lg py-4 px-12 rounded-full shadow-lg hover:bg-gray-200 transition-colors w-full max-w-sm">
+        Garantir acesso!
+      </button>
     </div>
   </div>
 </header>
-
+      
       <section className="py-16 lg:py-24 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
