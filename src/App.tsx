@@ -436,7 +436,7 @@ const scrollToPricing = () => {
 {/* ================================================================== */}
 {/* SEÇÃO DE PREÇO */}
 {/* ================================================================== */}
-<section className="bg-white py-16 lg:py-24 px-6">
+<section id="pricing-section" className="bg-white py-16 lg:py-24 px-6">
   <div className="max-w-6xl mx-auto text-center">
     {/* --- Tag e Título --- */}
     <div className="inline-block border border-gray-300 px-4 py-1 rounded-full text-xs font-medium mb-6 text-black">
