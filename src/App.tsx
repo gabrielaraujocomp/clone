@@ -99,7 +99,7 @@ const scrollToPricing = () => {
         e monetização com Inteligência artificial.
       </p>
 
-      <button onClick={scrollToPricing} className="bg-white text-black font-semibold text-lg py-4 px-12 rounded-full shadow-lg hover:bg-gray-200 transition-colors w-full max-w-sm">
+      <button onClick={scrollToPricing} className="bg-white text-black font-semibold text-lg py-3 px-8 rounded-lg shadow-lg hover:bg-gray-200 transition-colors w-full max-w-sm">
               Garantir acesso!
             </button>
     </div>
@@ -128,9 +128,9 @@ const scrollToPricing = () => {
           cinematográfica, cenários variados e consistência visual, tudo em
           minutos, sem precisar de câmera, fotógrafo ou locação.
         </p>
-       <button onClick={scrollToPricing} className="bg-black text-white font-semibold text-lg py-4 px-12 rounded-full shadow-lg hover:bg-gray-200 transition-colors w-full max-w-sm">
-              Garantir acesso!
-            </button>
+       <button onClick={scrollToPricing} className="bg-black text-white px-12 py-3 rounded-xl font-semibold hover:bg-gray-800 transition-colors">
+  Garantir acesso!
+</button>
       </div>
 
       {/* Bloco de Imagem Única */}
