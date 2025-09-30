@@ -57,171 +57,110 @@ function App() {
   </div>
 </header>
       
-      <section className="py-16 lg:py-24 px-6">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12">
-            <div className="inline-block border border-black px-4 py-1 rounded-full text-xs font-medium mb-6">
-              O CLONE PERFEITO
-            </div>
-            <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-              Como funciona o Curso?
-            </h2>
-            <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-4">
-              O curso começa do zero, sem precisar de conhecimento técnico, e já na primeira aula você coloca a mão na massa.
-            </p>
-            <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-              Ao longo dos módulos, você evolui para criar ensaios fotográficos ultra-realistas, produzir vídeos em alta qualidade e finalizar tudo com recursos profissionais, sempre com atualizações constantes para que tenha acesso às melhores ferramentas e tendências do mercado.
-            </p>
-          </div>
-
-          <div className="grid lg:grid-cols-2 gap-12 items-start mt-16">
-            <div>
-              <div className="inline-block border border-black px-4 py-1 rounded-full text-xs font-medium mb-6">
-                IMAGENS
-              </div>
-              <h3 className="text-3xl lg:text-4xl font-bold mb-6 leading-tight">
-                Ensaios fotográficos ultra-realistas com Inteligência Artificial
-              </h3>
-              <p className="text-gray-700 mb-6 text-lg leading-relaxed">
-                Crie ensaios que parecem feitos em estúdio profissional usando apenas algumas fotos de referência.
-              </p>
-              <p className="text-gray-700 mb-6 text-lg leading-relaxed">
-                Você vai aprender a gerar retratos realistas, com iluminação cinematográfica, cenários variados e consistência visual.
-              </p>
-              <p className="text-gray-700 mb-8 text-lg leading-relaxed">
-                Tudo em minutos, sem precisar de câmera, fotógrafo ou locação.
-              </p>
-              <button className="bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors">
-                Garantir acesso!
-              </button>
-            </div>
-
-            <div className="grid grid-cols-2 gap-4">
-              <div className="space-y-4">
-                <img
-                  src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400"
-                  alt="Portrait 1"
-                  className="w-full h-48 object-cover rounded-2xl"
-                />
-                <img
-                  src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400"
-                  alt="Portrait 2"
-                  className="w-full h-48 object-cover rounded-2xl"
-                />
-              </div>
-              <div className="space-y-4 pt-8">
-                <img
-                  src="https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=400"
-                  alt="Portrait 3"
-                  className="w-full h-48 object-cover rounded-2xl"
-                />
-                <img
-                  src="https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=400"
-                  alt="Portrait 4"
-                  className="w-full h-48 object-cover rounded-2xl"
-                />
-              </div>
-            </div>
-          </div>
-
-          <div className="grid lg:grid-cols-2 gap-12 items-center mt-24">
-            <div className="grid grid-cols-2 gap-4">
-              <div className="space-y-4">
-                <img
-                  src="https://images.pexels.com/photos/1687675/pexels-photo-1687675.jpeg?auto=compress&cs=tinysrgb&w=400"
-                  alt="Branding 1"
-                  className="w-full h-48 object-cover rounded-2xl"
-                />
-                <img
-                  src="https://images.pexels.com/photos/4068314/pexels-photo-4068314.jpeg?auto=compress&cs=tinysrgb&w=400"
-                  alt="Branding 2"
-                  className="w-full h-48 object-cover rounded-2xl"
-                />
-              </div>
-              <div className="space-y-4 pt-8">
-                <img
-                  src="https://images.pexels.com/photos/1667071/pexels-photo-1667071.jpeg?auto=compress&cs=tinysrgb&w=400"
-                  alt="Branding 3"
-                  className="w-full h-48 object-cover rounded-2xl"
-                />
-                <img
-                  src="https://images.pexels.com/photos/3184460/pexels-photo-3184460.jpeg?auto=compress&cs=tinysrgb&w=400"
-                  alt="Branding 4"
-                  className="w-full h-48 object-cover rounded-2xl"
-                />
-              </div>
-            </div>
-
-            <div>
-              <div className="inline-block border border-black px-4 py-1 rounded-full text-xs font-medium mb-6">
-                BRANDING
-              </div>
-              <h3 className="text-3xl lg:text-4xl font-bold mb-6 leading-tight">
-                Produtos e Branding com Inteligência Artificial
-              </h3>
-              <p className="text-gray-700 mb-6 text-lg leading-relaxed">
-                Dê vida a catálogos completos, anúncios irresistíveis e identidades visuais de alto impacto.
-              </p>
-              <p className="text-gray-700 mb-6 text-lg leading-relaxed">
-                Imagine criar imagens de produtos em cenários profissionais, mockups prontos para vender mais e até logotipos ou estilos de marca únicos.
-              </p>
-              <p className="text-gray-700 mb-8 text-lg leading-relaxed">
-                Uma solução que pequenas e grandes empresas estão dispostas a pagar caro e você aprende aqui do zero.
-              </p>
-              <button className="bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors">
-                Garantir acesso!
-              </button>
-            </div>
-          </div>
-
-          <div className="grid lg:grid-cols-2 gap-12 items-center mt-24">
-            <div>
-              <div className="inline-block border border-black px-4 py-1 rounded-full text-xs font-medium mb-6">
-                VÍDEOS 4K
-              </div>
-              <h3 className="text-3xl lg:text-4xl font-bold mb-6 leading-tight">
-                Geração de Vídeos e Edição 4K (literalmente)
-              </h3>
-              <p className="text-gray-700 mb-6 text-lg leading-relaxed">
-                Produza vídeos curtos em altíssima resolução 4K para Instagram, TikTok e campanhas de marketing. E
-              </p>
-              <p className="text-gray-700 mb-8 text-lg leading-relaxed">
-                Obs: Os vídeos da página não estão com qualidade 4K por conta do peso, ira travar tudo e prejudicar sua experiência na página rs
-              </p>
-              <button className="bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors">
-                Garantir acesso!
-              </button>
-            </div>
-
-            <div className="grid grid-cols-2 gap-4">
-              <div className="space-y-4">
-                <img
-                  src="https://images.pexels.com/photos/3585089/pexels-photo-3585089.jpeg?auto=compress&cs=tinysrgb&w=400"
-                  alt="Video 1"
-                  className="w-full h-48 object-cover rounded-2xl"
-                />
-                <img
-                  src="https://images.pexels.com/photos/4553277/pexels-photo-4553277.jpeg?auto=compress&cs=tinysrgb&w=400"
-                  alt="Video 2"
-                  className="w-full h-48 object-cover rounded-2xl"
-                />
-              </div>
-              <div className="space-y-4 pt-8">
-                <img
-                  src="https://images.pexels.com/photos/3944454/pexels-photo-3944454.jpeg?auto=compress&cs=tinysrgb&w=400"
-                  alt="Video 3"
-                  className="w-full h-48 object-cover rounded-2xl"
-                />
-                <img
-                  src="https://images.pexels.com/photos/5474294/pexels-photo-5474294.jpeg?auto=compress&cs=tinysrgb&w=400"
-                  alt="Video 4"
-                  className="w-full h-48 object-cover rounded-2xl"
-                />
-              </div>
-            </div>
-          </div>
+     <section className="py-16 lg:py-24 px-6 bg-white">
+  <div className="max-w-6xl mx-auto space-y-24">
+    {/* --- SEÇÃO 1: IMAGENS (Texto na esquerda, Imagem na direita) --- */}
+    <div className="flex flex-col lg:flex-row gap-12 items-center">
+      {/* Bloco de Texto */}
+      <div className="lg:w-1/2">
+        <div className="inline-block border border-black px-4 py-1 rounded-full text-xs font-medium mb-6">
+          IMAGENS
         </div>
-      </section>
+        <h3 className="text-3xl lg:text-4xl font-bold mb-6 leading-tight">
+          Ensaios fotográficos ultra-realistas com Inteligência Artificial
+        </h3>
+        <p className="text-gray-700 mb-6 text-lg leading-relaxed">
+          Crie ensaios que parecem feitos em estúdio profissional usando
+          apenas algumas fotos de referência.
+        </p>
+        <p className="text-gray-700 mb-8 text-lg leading-relaxed">
+          Você vai aprender a gerar retratos realistas, com iluminação
+          cinematográfica, cenários variados e consistência visual, tudo em
+          minutos, sem precisar de câmera, fotógrafo ou locação.
+        </p>
+        <button className="bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors">
+          Garantir acesso!
+        </button>
+      </div>
+
+      {/* Bloco de Imagem Única */}
+      <div className="lg:w-1/2">
+        <img
+          src="/img/ensaios-principal.jpg" // <-- TROCAR CAMINHO DA IMAGEM
+          alt="Ensaios fotográficos com IA"
+          className="w-full h-auto object-cover rounded-2xl"
+        />
+      </div>
+    </div>
+
+    {/* --- SEÇÃO 2: BRANDING (Imagem na esquerda, Texto na direita) --- */}
+    {/* Usamos lg:flex-row-reverse para inverter a ordem no desktop */}
+    <div className="flex flex-col lg:flex-row-reverse gap-12 items-center">
+      {/* Bloco de Texto */}
+      <div className="lg:w-1/2">
+        <div className="inline-block border border-black px-4 py-1 rounded-full text-xs font-medium mb-6">
+          BRANDING
+        </div>
+        <h3 className="text-3xl lg:text-4xl font-bold mb-6 leading-tight">
+          Produtos e Branding com Inteligência Artificial
+        </h3>
+        <p className="text-gray-700 mb-8 text-lg leading-relaxed">
+          Dê vida a catálogos completos, anúncios irresistíveis e
+          identidades visuais de alto impacto. Imagine criar imagens de
+          produtos em cenários profissionais, mockups prontos para vender
+          mais e até logotipos ou estilos de marca únicos, uma solução que
+          pequenas e grandes empresas estão dispostas a pagar caro e você
+          aprende aqui do zero.
+        </p>
+        <button className="bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors">
+          Garantir acesso!
+        </button>
+      </div>
+      
+      {/* Bloco de Imagem Única */}
+      <div className="lg:w-1/2">
+        <img
+          src="/img/branding-principal.jpg" // <-- TROCAR CAMINHO DA IMAGEM
+          alt="Branding e produtos com IA"
+          className="w-full h-auto object-cover rounded-2xl"
+        />
+      </div>
+    </div>
+
+    {/* --- SEÇÃO 3: VÍDEOS (Texto na esquerda, Imagem na direita) --- */}
+    <div className="flex flex-col lg:flex-row gap-12 items-center">
+      {/* Bloco de Texto */}
+      <div className="lg:w-1/2">
+        <div className="inline-block border border-black px-4 py-1 rounded-full text-xs font-medium mb-6">
+          VÍDEOS 4K
+        </div>
+        <h3 className="text-3xl lg:text-4xl font-bold mb-6 leading-tight">
+          Geração de Vídeos e Edição 4K (literalmente)
+        </h3>
+        <p className="text-gray-700 mb-6 text-lg leading-relaxed">
+          Produza vídeos curtos em altíssima resolução 4K para Instagram,
+          TikTok e campanhas de marketing.
+        </p>
+        <p className="text-gray-700 mb-8 text-lg leading-relaxed">
+          Obs: Os vídeos da página não estão com qualidade 4K por conta do
+          peso, ira travar tudo e prejudicar sua experiência na página rs
+        </p>
+        <button className="bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors">
+          Garantir acesso!
+        </button>
+      </div>
+
+      {/* Bloco de Imagem Única */}
+      <div className="lg:w-1/2">
+        <img
+          src="/img/videos-principal.jpg" // <-- TROCAR CAMINHO DA IMAGEM
+          alt="Vídeos em 4K com IA"
+          className="w-full h-auto object-cover rounded-2xl"
+        />
+      </div>
+    </div>
+  </div>
+</section>
 
       <section className="py-16 px-6">
         <div className="max-w-6xl mx-auto">
