@@ -203,7 +203,7 @@ const scrollToTop = () => {
   </div>
 </section>
 
-<<section className="py-16 lg:py-24 px-6 bg-white">
+<section className="py-16 lg:py-24 px-6 bg-white">
   <div className="max-w-6xl mx-auto">
     <div className="grid md:grid-cols-2 gap-8 items-stretch">
 
