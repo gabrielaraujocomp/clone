@@ -203,12 +203,12 @@ const scrollToTop = () => {
   </div>
 </section>
 
-<section className="py-16 lg:py-24 px-6 bg-white">
+<<section className="py-16 lg:py-24 px-6 bg-white">
   <div className="max-w-6xl mx-auto">
     <div className="grid md:grid-cols-2 gap-8 items-stretch">
 
-      {/* --- Coluna da Esquerda: Card Verde --- */}
-      <div className="bg-[#2dccaa] rounded-3xl p-8 flex flex-col text-white">
+      {/* --- Coluna da Esquerda: Card Branco --- */}
+      <div className="bg-white border border-gray-200 rounded-3xl p-8 flex flex-col text-black">
         {/* Avatares */}
         <div className="flex mb-4">
           <img src="/img/avatar1.png" alt="Avatar 1" className="h-10 w-10 rounded-full border-2 border-white" />
@@ -216,7 +216,7 @@ const scrollToTop = () => {
           <img src="/img/avatar3.png" alt="Avatar 3" className="h-10 w-10 rounded-full border-2 border-white -ml-3" />
         </div>
 
-        <div className="text-sm font-medium uppercase tracking-widest mb-2">
+        <div className="text-sm font-medium uppercase tracking-widest mb-2 text-gray-500">
           Agentes Otimizados
         </div>
 
@@ -225,21 +225,21 @@ const scrollToTop = () => {
           Tenha acesso a todos os meus agentes que uso diariamente no meu Workflow de Trabalho para otimizar as criações
         </h3>
 
-        <p className="text-white/90 mt-4 mb-8">
+        <p className="text-gray-600 mt-4 mb-8">
           Utilize com o Plano Grátis do Chat Gpt
         </p>
 
         {/* Botão com estilo "outline" */}
         <button className="bg-black text-white font-semibold text-lg py-3 px-12 rounded-xl shadow-lg hover:bg-gray-800 transition-colors w-full">
-  Garantir acesso!
-</button>
+          Garantir acesso!
+        </button>
       </div>
 
-      {/* --- Coluna da Direita: Imagem Única --- */}
+      {/* A coluna da direita permanece a mesma */}
       <div className="flex items-center justify-center">
         <img
-          src="/img/agentes-collage.jpg" // <-- TROCAR CAMINHO DA IMAGEM
-          alt="Collage de branding com exemplos de ensaios, produtos e vídeos"
+          src="/img/agentes-collage.jpg"
+          alt="Collage de branding"
           className="w-full h-full object-cover rounded-3xl"
         />
       </div>
