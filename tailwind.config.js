@@ -2,7 +2,12 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      // ADICIONAMOS A CONFIGURAÇÃO DA FONTE AQUI
+      fontFamily: {
+        sans: ['Geist', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };
