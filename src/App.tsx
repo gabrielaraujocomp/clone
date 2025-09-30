@@ -116,9 +116,7 @@ const scrollToTop = () => {
           cinematográfica, cenários variados e consistência visual, tudo em
           minutos, sem precisar de câmera, fotógrafo ou locação.
         </p>
-        <button className="bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors">
-          Garantir acesso!
-        </button>
+         <button className="bg-black text-white px-12 py-3 rounded-xl font-semibold hover:bg-gray-800 transition-colors">Garantir acesso!</button>
       </div>
 
       {/* Bloco de Imagem Única */}
@@ -150,9 +148,7 @@ const scrollToTop = () => {
           pequenas e grandes empresas estão dispostas a pagar caro e você
           aprende aqui do zero.
         </p>
-        <button className="bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors">
-          Garantir acesso!
-        </button>
+         <button className="bg-black text-white px-12 py-3 rounded-xl font-semibold hover:bg-gray-800 transition-colors">Garantir acesso!</button>
       </div>
       
       {/* Bloco de Imagem Única */}
@@ -183,9 +179,7 @@ const scrollToTop = () => {
           Obs: Os vídeos da página não estão com qualidade 4K por conta do
           peso, ira travar tudo e prejudicar sua experiência na página rs
         </p>
-        <button className="bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors">
-          Garantir acesso!
-        </button>
+         <button className="bg-black text-white px-12 py-3 rounded-xl font-semibold hover:bg-gray-800 transition-colors">Garantir acesso!</button>
       </div>
 
       {/* Bloco de Vídeo */}
