@@ -353,9 +353,6 @@ const scrollToTop = () => {
             <div className="absolute inset-0 bg-black/30"></div>
             <div className="relative z-10 grid lg:grid-cols-2 gap-8 items-center">
               <div className="text-white">
-                <p className="text-sm mb-4 text-gray-300">
-                  "Sai eu vender UM ensaio, já paguei o curso inteiro..."
-                </p>
                 <h2 className="text-3xl lg:text-4xl font-bold mb-4">
                   Estimativa de valor de venda do que você irá aprender
                 </h2>
@@ -377,12 +374,6 @@ const scrollToTop = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex justify-center lg:justify-end">
-                <div className="bg-gradient-to-br from-purple-600 to-pink-600 rounded-3xl p-8 lg:p-12 text-center max-w-sm w-full">
-                  <div className="text-6xl mb-4">▷◁</div>
-                  <div className="text-4xl lg:text-5xl font-bold text-white">
-                    Clone<br />Perfeito
-                  </div>
                 </div>
               </div>
             </div>
