@@ -508,7 +508,7 @@ const scrollToTop = () => {
           <h3 className="text-2xl font-bold mb-6">O que está incluso:</h3>
           <ul className="space-y-4">
             
-            <li className="flex items-center gap-3 bg-black/30 p-3 rounded-lg">
+            <li className="flex items-center gap-3 bg-green-500/20 text-green-100 p-3 rounded-lg">
               <div className="bg-white/10 rounded-full p-1 flex-shrink-0">
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M17.707 9.293a1 1 0 010 1.414l-7 7a1 1 0 01-1.414 0l-7-7A.997.997 0 012 10V5a1 1 0 011-1h5a1 1 0 01.707.293l7 7zM5 6a1 1 0 100-2 1 1 0 000 2z" clipRule="evenodd"></path></svg>
               </div>
