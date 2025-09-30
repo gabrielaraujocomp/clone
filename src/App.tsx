@@ -87,7 +87,7 @@ const scrollToTop = () => {
         e monetização com Inteligência artificial.
       </p>
 
-      <button className="bg-white text-black font-semibold text-lg py-4 px-12 rounded-full shadow-lg hover:bg-gray-200 transition-colors w-full max-w-sm">
+      <button className="bg-white text-black font-semibold text-lg py-3 px-12 rounded-xl shadow-lg hover:bg-gray-200 transition-colors w-full max-w-sm">
         Garantir acesso!
       </button>
     </div>
