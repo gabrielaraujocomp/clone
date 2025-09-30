@@ -111,7 +111,7 @@ const scrollToPricing = () => {
     {/* --- Coluna da Esquerda: Textos --- */}
     <div className="text-left">
       <div className="inline-block border border-gray-600 px-4 py-1 rounded-full text-xs font-medium mb-4 text-gray-300">
-        O CLONE PERFEITO
+        O CLONE PERFEITOa
       </div>
       <h2 className="text-3xl lg:text-4xl font-bold mb-6 leading-tight">
         Como funciona o Curso?
