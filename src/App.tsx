@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 function App() {
 
 const [openFaq, setOpenFaq] = useState<number | null>(null);
-
+q
 const faqData = [
     {
       question: "Preciso ter experiência com Inteligência Artificial?",
