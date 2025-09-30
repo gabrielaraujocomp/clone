@@ -151,13 +151,16 @@ function App() {
       </div>
 
       {/* Bloco de Vídeo Único */}
-      <div className="lg:w-1/2">
-        <img
-          src="/videos/videos-principal.mp4" // <-- TROCAR CAMINHO DA IMAGEM
-          alt="Vídeos em 4K com IA"
-          className="w-full h-auto object-cover rounded-2xl"
-        />
-      </div>
+      <<div className="lg:w-1/2">
+  <video
+    autoPlay          // Para o vídeo tocar sozinho
+    loop              // Para repetir quando acabar
+    muted             // Para não ter som (importante para autoplay)
+    playsInline       // Ajuda a tocar no lugar certo em celulares
+    src="/videos/videos-principal.mp4" // O caminho que você me passou!
+    className="w-full h-auto object-cover rounded-2xl"
+  ></video>
+</div>
     </div>
   </div>
 </section>
