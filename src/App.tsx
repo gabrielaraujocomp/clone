@@ -128,9 +128,9 @@ const scrollToPricing = () => {
           cinematográfica, cenários variados e consistência visual, tudo em
           minutos, sem precisar de câmera, fotógrafo ou locação.
         </p>
-       <button className="bg-black text-white font-semibold text-lg py-3 px-12 rounded-xl shadow-lg hover:bg-gray-800 transition-colors w-full">
-  Garantir acesso!
-</button>
+       <button onClick={scrollToPricing} className="bg-white text-black font-semibold text-lg py-4 px-12 rounded-full shadow-lg hover:bg-gray-200 transition-colors w-full max-w-sm">
+              Garantir acesso!
+            </button>
       </div>
 
       {/* Bloco de Imagem Única */}
@@ -162,9 +162,9 @@ const scrollToPricing = () => {
           pequenas e grandes empresas estão dispostas a pagar caro e você
           aprende aqui do zero.
         </p>
-         <button className="bg-black text-white font-semibold text-lg py-3 px-12 rounded-xl shadow-lg hover:bg-gray-800 transition-colors w-full">
-  Garantir acesso!
-</button>
+         <button onClick={scrollToPricing} className="bg-white text-black font-semibold text-lg py-4 px-12 rounded-full shadow-lg hover:bg-gray-200 transition-colors w-full max-w-sm">
+              Garantir acesso!
+            </button>
       </div>
       
       {/* Bloco de Imagem Única */}
@@ -195,9 +195,9 @@ const scrollToPricing = () => {
           Obs: Os vídeos da página não estão com qualidade 4K por conta do
           peso, ira travar tudo e prejudicar sua experiência na página rs
         </p>
-         <button className="bg-black text-white font-semibold text-lg py-3 px-12 rounded-xl shadow-lg hover:bg-gray-800 transition-colors w-full">
-  Garantir acesso!
-</button>
+         <button onClick={scrollToPricing} className="bg-white text-black font-semibold text-lg py-4 px-12 rounded-full shadow-lg hover:bg-gray-200 transition-colors w-full max-w-sm">
+              Garantir acesso!
+            </button>
       </div>
 
       {/* Bloco de Vídeo */}
@@ -242,9 +242,9 @@ const scrollToPricing = () => {
         </p>
 
         {/* Botão com estilo "outline" */}
-        <button className="bg-black text-white font-semibold text-lg py-3 px-12 rounded-xl shadow-lg hover:bg-gray-800 transition-colors w-full">
-          Garantir acesso!
-        </button>
+        <button onClick={scrollToPricing} className="bg-white text-black font-semibold text-lg py-4 px-12 rounded-full shadow-lg hover:bg-gray-200 transition-colors w-full max-w-sm">
+              Garantir acesso!
+            </button>
       </div>
 
       {/* A coluna da direita permanece a mesma */}
@@ -497,14 +497,19 @@ const scrollToPricing = () => {
             <p className="mt-2">ou R$247 à vista</p>
           </div>
           
-          <button className="bg-green-500 text-white font-bold py-4 px-8 rounded-lg w-full mt-8 hover:bg-green-600 transition-colors flex items-center justify-center gap-2">
-            Garantir acesso!
-            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
-          </button>
+          <a 
+  href="https://pay.hotmart.com/P100679254E?off=82l7lflg&checkoutMode=10&bid=1759268952273"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-green-500 text-white font-bold py-4 px-8 rounded-lg w-full mt-8 hover:bg-green-600 transition-colors flex items-center justify-center gap-2"
+>
+  Garantir acesso!
+  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
+</a>
           
           <div className="flex items-center justify-center gap-2 text-sm mt-4 text-white/60">
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd"></path></svg>
-            <span>Garantia de 7 dias</span>
+            <span>7 dias de garantia incondicional e sem letras miúdas.</span>
           </div>
         </div>
       </div>
@@ -612,7 +617,7 @@ const scrollToPricing = () => {
         <p className="text-gray-400 mb-8 max-w-lg">
           O Clone Perfeito foi projetado para te fornecer todas as ferramentas necessárias para dominar a criação de conteúdo com IA e alcançar seus objetivos na área.
         </p>
-        <a href="#" className="inline-block bg-green-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-green-600 transition-colors">
+        <a href="https://pay.hotmart.com/P100679254E?off=82l7lflg&checkoutMode=10&bid=1759268952273" className="inline-block bg-green-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-green-600 transition-colors">
           Garantir meu acesso!
         </a>
       </div>
