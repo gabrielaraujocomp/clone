@@ -166,56 +166,50 @@ function App() {
   </div>
 </section>
 
-      <section className="py-16 px-6">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-teal-500 rounded-3xl p-8 text-white">
-              <div className="mb-6">
-                <div className="text-2xl font-bold mb-1">GPTA</div>
-                <div className="text-sm font-medium uppercase tracking-wide">Agentes Otimizados</div>
-              </div>
-              <h3 className="text-2xl lg:text-3xl font-bold mb-4 leading-tight">
-                Tenha acesso a todos os meus agentes que uso diariamente no meu Workflow de Trabalho para otimizar as criações
-              </h3>
-              <p className="text-white/90 mb-6">
-                Utilizando o Fluxo Bruto do Chat Gpt.
-              </p>
-              <button className="bg-white text-teal-500 px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-gray-100 transition-colors">
-                Garantir acesso!
-              </button>
-            </div>
+<section className="py-16 lg:py-24 px-6 bg-white">
+  <div className="max-w-6xl mx-auto">
+    <div className="grid md:grid-cols-2 gap-8 items-stretch">
 
-            <div className="bg-black rounded-3xl p-8 text-white flex items-center justify-center">
-              <div className="text-center space-y-6">
-                <div className="flex flex-wrap justify-center gap-6 items-center">
-                  <div>
-                    <div className="text-lg font-bold mb-1">Ensaios</div>
-                    <div className="text-lg font-bold">Fotográficos</div>
-                    <div className="text-4xl font-bold text-pink-500">IA</div>
-                  </div>
-                  <div className="text-6xl font-bold">PRODUTOS</div>
-                </div>
-                <div className="flex items-center justify-center gap-4">
-                  <div className="text-sm">& branding</div>
-                </div>
-                <div className="flex flex-wrap justify-center gap-6 items-center">
-                  <div>
-                    <div className="text-lg font-bold mb-1">Vídeos</div>
-                    <div className="text-sm">.com</div>
-                  </div>
-                  <div className="text-6xl font-bold">VÍDEOS</div>
-                  <div className="text-4xl">📷</div>
-                </div>
-                <div className="text-sm">
-                  <span className="font-bold">Edição de</span>
-                  <span className="ml-2">Vídeos</span>
-                  <span className="ml-2 font-bold">4K</span>
-                </div>
-              </div>
-            </div>
-          </div>
+      {/* --- Coluna da Esquerda: Card Verde --- */}
+      <div className="bg-[#2dccaa] rounded-3xl p-8 flex flex-col text-white">
+        {/* Avatares */}
+        <div className="flex mb-4">
+          <img src="/img/avatar1.png" alt="Avatar 1" className="h-10 w-10 rounded-full border-2 border-white" />
+          <img src="/img/avatar2.png" alt="Avatar 2" className="h-10 w-10 rounded-full border-2 border-white -ml-3" />
+          <img src="/img/avatar3.png" alt="Avatar 3" className="h-10 w-10 rounded-full border-2 border-white -ml-3" />
         </div>
-      </section>
+
+        <div className="text-sm font-medium uppercase tracking-widest mb-2">
+          Agentes Otimizados
+        </div>
+
+        {/* Usamos flex-grow para empurrar o conteúdo abaixo para o final do card */}
+        <h3 className="text-3xl lg:text-4xl font-bold leading-tight flex-grow">
+          Tenha acesso a todos os meus agentes que uso diariamente no meu Workflow de Trabalho para otimizar as criações
+        </h3>
+
+        <p className="text-white/90 mt-4 mb-8">
+          Utilize com o Plano Grátis do Chat Gpt
+        </p>
+
+        {/* Botão com estilo "outline" */}
+        <button className="bg-transparent border-2 border-white text-white font-semibold py-3 px-6 rounded-xl hover:bg-white hover:text-[#2dccaa] transition-all duration-300 w-full md:w-auto self-start">
+          Garantir acesso!
+        </button>
+      </div>
+
+      {/* --- Coluna da Direita: Imagem Única --- */}
+      <div className="flex items-center justify-center">
+        <img
+          src="/img/agentes-collage.jpg" // <-- TROCAR CAMINHO DA IMAGEM
+          alt="Collage de branding com exemplos de ensaios, produtos e vídeos"
+          className="w-full h-full object-cover rounded-3xl"
+        />
+      </div>
+
+    </div>
+  </div>
+</section>
 
       <section className="py-16 px-6 bg-gray-50">
         <div className="max-w-6xl mx-auto">
