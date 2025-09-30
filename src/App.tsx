@@ -99,6 +99,40 @@ const scrollToPricing = () => {
     </div>
   </div>
 </header>
+
+{/* ================================================================== */}
+{/* SUBSTITUA A SEÇÃO "O QUE É O CURSO" POR ESTA NOVA VERSÃO */}
+{/* ================================================================== */}
+<div className="bg-gray-900 rounded-3xl p-8 lg:p-12 text-white"> {/* Fundo preto e arredondado */}
+  <div className="grid md:grid-cols-2 gap-12 items-center">
+    
+    {/* --- Coluna da Esquerda: Textos --- */}
+    <div className="text-left"> {/* Textos alinhados à esquerda */}
+      <div className="inline-block border border-gray-600 px-4 py-1 rounded-full text-xs font-medium mb-4 text-gray-300">
+        O CLONE PERFEITO
+      </div>
+      <h2 className="text-3xl lg:text-4xl font-bold mb-6 leading-tight">
+        Como funciona o Curso?
+      </h2>
+      <p className="text-lg text-gray-300 mb-4 leading-relaxed">
+        O curso começa do zero, sem precisar de conhecimento técnico, e já na primeira aula você coloca a mão na massa.
+      </p>
+      <p className="text-lg text-gray-300 leading-relaxed">
+        Ao longo dos módulos, você evolui para criar ensaios fotográficos ultra-realistas, produzir vídeos em alta qualidade e finalizar tudo com recursos profissionais, sempre com atualizações constantes para que tenha acesso às melhores ferramentas e tendências do mercado.
+      </p>
+    </div>
+
+    {/* --- Coluna da Direita: Imagem --- */}
+    <div className="flex justify-center md:justify-end">
+      <img
+        src="/img/curso-overview.jpg" // <-- Nome da sua imagem para esta seção
+        alt="Visão geral do curso Clone Perfeito"
+        className="w-full h-auto object-cover rounded-2xl"
+      />
+    </div>
+
+  </div>
+</div>
       
 
 <section className="py-16 lg:py-24 px-6 bg-white">
