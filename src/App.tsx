@@ -448,6 +448,91 @@ function App() {
           </div>
         </div>
       </section>
+
+{/* ================================================================== */}
+{/* COLE ESTA NOVA SEÇÃO DE PREÇO NO SEU CÓDIGO */}
+{/* ================================================================== */}
+<section className="bg-white py-16 lg:py-24 px-6">
+  <div className="max-w-6xl mx-auto text-center">
+    {/* --- Tag e Título --- */}
+    <div className="inline-block border border-gray-300 px-4 py-1 rounded-full text-xs font-medium mb-6">
+      INVESTIMENTO
+    </div>
+    <h2 className="text-4xl lg:text-5xl font-bold mb-12 text-black max-w-4xl mx-auto">
+      Invista em uma habilidade que já se paga no seu primeiro cliente
+    </h2>
+
+    {/* --- Container Principal Roxo --- */}
+    <div className="bg-purple-600 rounded-3xl text-white text-left p-8 md:p-12">
+      <div className="grid lg:grid-cols-2 gap-12">
+        
+        {/* --- Coluna da Esquerda: O que está incluso --- */}
+        <div>
+          <h3 className="text-2xl font-bold mb-6">O que está incluso:</h3>
+          <ul className="space-y-4">
+            
+            {/* Item especial do cupom */}
+            <li className="flex items-center gap-3 bg-purple-700 p-3 rounded-lg">
+              <div className="bg-white/20 rounded-full p-1 flex-shrink-0">
+                {/* Ícone de Etiqueta/Tag */}
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M17.707 9.293a1 1 0 010 1.414l-7 7a1 1 0 01-1.414 0l-7-7A.997.997 0 012 10V5a1 1 0 011-1h5a1 1 0 01.707.293l7 7zM5 6a1 1 0 100-2 1 1 0 000 2z" clipRule="evenodd"></path></svg>
+              </div>
+              <span>Utilize o cupom <strong>clone50</strong> no pagamento!</span>
+            </li>
+
+            {/* Lista de benefícios */}
+            <li className="flex items-center gap-3">
+              <div className="bg-white/20 rounded-full p-1 flex-shrink-0"><svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg></div>
+              <span>Curso completo com os módulos (ensaios, vídeos em 4K, branding, edição final)</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <div className="bg-white/20 rounded-full p-1 flex-shrink-0"><svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg></div>
+              <span>Atualizações constantes: sempre que surgir ferramenta nova ou solução melhor, o conteúdo é atualizado</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <div className="bg-white/20 rounded-full p-1 flex-shrink-0"><svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg></div>
+              <span>Acesso garantido por 12 meses</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <div className="bg-white/20 rounded-full p-1 flex-shrink-0"><svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg></div>
+              <span>Agentes GPT exclusivo para prompts ultra-otimizados</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <div className="bg-white/20 rounded-full p-1 flex-shrink-0"><svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg></div>
+              <span>Suporte direto comigo</span>
+            </li>
+          </ul>
+        </div>
+
+        {/* --- Coluna da Direita: Preço --- */}
+        <div className="bg-purple-700/70 rounded-2xl p-8 flex flex-col text-center">
+          <div className="flex-grow">
+            <p className="font-semibold">Acesso Anual <span className="bg-white text-purple-700 text-xs px-2 py-1 rounded-full ml-2">Desconto Temporário</span></p>
+            <p className="text-lg my-4">De <span className="line-through">R$ 497</span> por apenas</p>
+            <p className="text-5xl md:text-6xl font-bold leading-none">
+              12x de R$ 25
+            </p>
+            <p className="mt-2">ou R$247 à vista</p>
+          </div>
+          
+          <button className="bg-green-500 text-white font-bold py-4 px-8 rounded-lg w-full mt-8 hover:bg-green-600 transition-colors flex items-center justify-center gap-2">
+            Garantir acesso!
+            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
+          </button>
+          
+          <div className="flex items-center justify-center gap-2 text-sm mt-4 text-white/70">
+            {/* Ícone de Garantia */}
+            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd"></path></svg>
+            <span>Garantia de 7 dias</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+      
     </div>
   );
 }
