@@ -462,18 +462,14 @@ const scrollToPricing = () => {
           Feito por quem é obcecado
         </p>
         <h2 className="text-4xl lg:text-5xl font-bold leading-tight">
-          O método criado por quem vive de IA, para quem quer viver de IA.
+          Gabriel
         </h2>
         
         <div className="space-y-4 text-gray-600 text-lg mt-6">
           <p>
-            Meu nome é Gabriel, e eu sempre fui movido por duas coisas: curiosidade e inconformismo. Nunca aceitei fazer parte da multidão, prefiro aprender sozinho, testar até dar certo e achar meu próprio jeito de vencer. O Clone Perfeito é a prova disso: um método que carrega meu jeito de ser, direto, prático e sem enrolação.
+            Eeu sempre fui movido por duas coisas: curiosidade e inconformismo. Nunca aceitei fazer parte da multidão, prefiro aprender sozinho, testar até dar certo e achar meu próprio jeito de vencer. O Clone Perfeito é a prova disso: um método que carrega meu jeito de ser, direto, prático e sem enrolação.
           </p>
         </div>
-
-        <p className="mt-8 font-serif italic text-2xl text-black">
-          Gabriel Araújo Costa
-        </p>
       </div>
 
     </div>
