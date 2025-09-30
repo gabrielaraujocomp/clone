@@ -127,39 +127,40 @@ function App() {
       </div>
     </div>
 
-    {/* --- SEÇÃO 3: VÍDEOS (Texto na esquerda, Imagem na direita) --- */}
-    <div className="flex flex-col lg:flex-row gap-12 items-center">
-      {/* Bloco de Texto */}
-      <div className="lg:w-1/2">
-        <div className="inline-block border border-black px-4 py-1 rounded-full text-xs font-medium mb-6">
-          VÍDEOS 4K
-        </div>
-        <h3 className="text-3xl lg:text-4xl font-bold mb-6 leading-tight">
-          Geração de Vídeos e Edição 4K (literalmente)
-        </h3>
-        <p className="text-gray-700 mb-6 text-lg leading-relaxed">
-          Produza vídeos curtos em altíssima resolução 4K para Instagram,
-          TikTok e campanhas de marketing.
-        </p>
-        <p className="text-gray-700 mb-8 text-lg leading-relaxed">
-          Obs: Os vídeos da página não estão com qualidade 4K por conta do
-          peso, ira travar tudo e prejudicar sua experiência na página rs
-        </p>
-        <button className="bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors">
-          Garantir acesso!
-        </button>
-      </div>
+  {/* --- SEÇÃO 3: VÍDEOS (Texto na esquerda, Vídeo na direita) --- */}
+<div className="flex flex-col lg:flex-row gap-12 items-center">
+  {/* Bloco de Texto */}
+  <div className="lg:w-1/2">
+    <div className="inline-block border border-black px-4 py-1 rounded-full text-xs font-medium mb-6">
+      VÍDEOS 4K
+    </div>
+    <h3 className="text-3xl lg:text-4xl font-bold mb-6 leading-tight">
+      Geração de Vídeos e Edição 4K (literalmente)
+    </h3>
+    <p className="text-gray-700 mb-6 text-lg leading-relaxed">
+      Produza vídeos curtos em altíssima resolução 4K para Instagram,
+      TikTok e campanhas de marketing.
+    </p>
+    <p className="text-gray-700 mb-8 text-lg leading-relaxed">
+      Obs: Os vídeos da página não estão com qualidade 4K por conta do
+      peso, ira travar tudo e prejudicar sua experiência na página rs
+    </p>
+    <button className="bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors">
+      Garantir acesso!
+    </button>
+  </div>
 
-      {/* Bloco de Vídeo Único */}
-      <<div className="lg:w-1/2">
-  <video
-    autoPlay          // Para o vídeo tocar sozinho
-    loop              // Para repetir quando acabar
-    muted             // Para não ter som (importante para autoplay)
-    playsInline       // Ajuda a tocar no lugar certo em celulares
-    src="/videos/videos-principal.mp4" // O caminho que você me passou!
-    className="w-full h-auto object-cover rounded-2xl"
-  ></video>
+  {/* Bloco de Vídeo (substituindo o bloco de imagem anterior) */}
+  <div className="lg:w-1/2">
+    <video
+      autoPlay
+      loop
+      muted
+      playsInline
+      src="/videos/videos-principal.mp4"
+      className="w-full h-auto object-cover rounded-2xl"
+    ></video>
+  </div>
 </div>
     </div>
   </div>
