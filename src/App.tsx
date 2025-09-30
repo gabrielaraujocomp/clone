@@ -347,39 +347,35 @@ const scrollToTop = () => {
         </div>
       </section>
 
-      <section className="py-16 px-6">
-        <div className="max-w-6xl mx-auto">
-          <div className="bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 rounded-3xl p-8 lg:p-12 overflow-hidden relative">
-            <div className="absolute inset-0 bg-black/30"></div>
-            <div className="relative z-10 grid lg:grid-cols-2 gap-8 items-center">
-              <div className="text-white">
-                <h2 className="text-3xl lg:text-4xl font-bold mb-4">
-                  Estimativa de valor de venda do que você irá aprender
-                </h2>
-                <p className="text-sm mb-8 text-gray-300">
-                  "Se eu vender UM ensaio, já paguei o curso inteiro!"
-                </p>
-                <div className="flex flex-wrap gap-8">
-                  <div>
-                    <div className="text-3xl font-bold mb-1">~R$500+</div>
-                    <div className="text-sm text-gray-300">por ensaio</div>
-                  </div>
-                  <div>
-                    <div className="text-3xl font-bold mb-1">~R$300+</div>
-                    <div className="text-sm text-gray-300">por vídeo 4k</div>
-                  </div>
-                  <div>
-                    <div className="text-3xl font-bold mb-1">~R$3K+</div>
-                    <div className="text-sm text-gray-300">por pacote de artes com IA</div>
-                  </div>
-                </div>
-              </div>
-                </div>
-              </div>
-            </div>
+<section className="py-16 px-6">
+  <div className="max-w-6xl mx-auto">
+    <div className="bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 rounded-3xl p-8 lg:p-12 overflow-hidden relative">
+      <div className="absolute inset-0 bg-black/30"></div>
+      
+      {/* Layout ajustado para centralizar o conteúdo */}
+      <div className="relative z-10 text-center text-white">
+        <h2 className="text-3xl lg:text-4xl font-bold mb-8">
+          Estimativa de valor de venda do que você irá aprender
+        </h2>
+        <div className="flex flex-wrap justify-center gap-8 lg:gap-16">
+          <div>
+            <div className="text-3xl font-bold mb-1">~R$500+</div>
+            <div className="text-sm text-gray-300">por ensaio</div>
+          </div>
+          <div>
+            <div className="text-3xl font-bold mb-1">~R$300+</div>
+            <div className="text-sm text-gray-300">por vídeo 4k</div>
+          </div>
+          <div>
+            <div className="text-3xl font-bold mb-1">~R$3K+</div>
+            <div className="text-sm text-gray-300">por pacote de artes com IA</div>
           </div>
         </div>
-      </section>
+      </div>
+      
+    </div>
+  </div>
+</section>
 
       <section className="py-16 px-6 bg-gray-50">
         <div className="max-w-6xl mx-auto">
