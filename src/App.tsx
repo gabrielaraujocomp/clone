@@ -12,16 +12,35 @@ function App() {
         </span>
       </div>
 
-<header className="w-full p-4 md:py-6 md:px-2">
-  {/* --- Container principal --- */}
-  {/* A classe de altura foi alterada de h-[85vh] para h-[95vh] */}
-  <div className="relative max-w-7xl mx-auto w-full h-[95vh] rounded-3xl overflow-hidden shadow-2xl">
+Ok, isso é frustrante. Peço desculpas por isso. Se a aparência não mudou, significa que meu diagnóstico anterior estava errado e o problema não era o padding.
+
+Reavaliei o código e agora encontrei o verdadeiro culpado. Agradeço sua paciência!
+
+O problema real é a classe max-w-7xl no container do vídeo. Essa classe está definindo uma largura máxima para o seu container de vídeo (1280px). Em uma tela de desktop, que é muito mais larga que isso, o mx-auto centraliza esse container e o espaço que sobra nas laterais vira a "borda branca" que você quer eliminar.
+
+A solução é remover o limite de largura máxima.
+
+A Correção Definitiva
+
+Vamos ajustar duas linhas: a do <header> para ter uma borda pequena e consistente, e a do <div> de dentro para remover o limite de largura.
+
+1. Encontre o seu bloco <header> atual.
+
+2. Substitua o bloco inteiro por este código corrigido:
+JavaScript
+
+{/* ================================================================== */}
+{/* SUBSTITUA O BLOCO <header> ANTIGO POR ESTE NOVO E CORRIGIDO */}
+{-================================================================== */}
+<header className="w-full p-2 md:p-4">
+  {/* A MUDANÇA PRINCIPAL ESTÁ NA LINHA ABAIXO: removemos max-w-7xl e mx-auto */}
+  <div className="relative w-full h-[95vh] rounded-3xl overflow-hidden shadow-2xl">
     {/* --- VÍDEO DE FUNDO --- */}
     <video
       autoPlay
       loop
       muted
-      src="/videos/clone-background.mp4" // <-- Lembre-se de que este nome é um placeholder
+      src="/videos/clone-background.mp4"
       className="absolute z-0 w-full h-full object-cover"
     ></video>
 
