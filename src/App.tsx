@@ -57,9 +57,7 @@ function App() {
   </div>
 </header>
       
-    {/* ================================================================== */}
-{/* COLE ESTE NOVO BLOCO DE CÓDIGO AQUI */}
-{/* ================================================================== */}
+
 <section className="py-16 lg:py-24 px-6 bg-white">
   <div className="max-w-6xl mx-auto space-y-24">
     {/* --- SEÇÃO 1: IMAGENS (Texto na esquerda, Imagem na direita) --- */}
@@ -130,7 +128,7 @@ function App() {
       </div>
     </div>
 
-    {/* --- SEÇÃO 3: VÍDEOS (Texto na esquerda, Vídeo na direita) --- */}
+ {/* --- SEÇÃO 3: VÍDEOS (Texto na esquerda, Vídeo na direita) --- */}
 <div className="flex flex-col lg:flex-row gap-12 items-center">
   {/* Bloco de Texto */}
   <div className="lg:w-1/2">
@@ -153,7 +151,7 @@ function App() {
     </button>
   </div>
 
-  {/* Bloco de Vídeo (substituindo o bloco de imagem anterior) */}
+  {/* Bloco de Vídeo */}
   <div className="lg:w-1/2">
     <video
       autoPlay
@@ -165,7 +163,6 @@ function App() {
     ></video>
   </div>
 </div>
-</section>
 
       <section className="py-16 px-6">
         <div className="max-w-6xl mx-auto">
