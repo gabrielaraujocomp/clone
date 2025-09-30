@@ -150,10 +150,10 @@ function App() {
         </button>
       </div>
 
-      {/* Bloco de Imagem Única */}
+      {/* Bloco de Vídeo Único */}
       <div className="lg:w-1/2">
         <img
-          src="/img/videos-principal.jpg" // <-- TROCAR CAMINHO DA IMAGEM
+          src="/videos/videos-principal.mp4" // <-- TROCAR CAMINHO DA IMAGEM
           alt="Vídeos em 4K com IA"
           className="w-full h-auto object-cover rounded-2xl"
         />
