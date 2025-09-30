@@ -1,5 +1,34 @@
 function App() {
+import React, { useState } from 'react';
+
+const [openFaq, setOpenFaq] = useState<number | null>(null);
+
+const faqData = [
+    {
+      question: "Preciso ter experiência com Inteligência Artificial?",
+      answer: "Não! O curso foi desenhado para começar do zero absoluto. Vamos te guiar em cada passo, desde os conceitos básicos até as técnicas mais avançadas, sem exigir nenhum conhecimento prévio."
+    },
+    {
+      question: "Preciso de computador potente para acompanhar?",
+      answer: "Não necessariamente. A maioria das ferramentas que utilizamos funciona na nuvem, o que significa que elas não exigem muito do seu computador. Um computador básico com acesso à internet é suficiente para começar."
+    },
+    {
+      question: "O curso fica desatualizado rápido?",
+      answer: "Nós sabemos que a área de IA muda constantemente. Por isso, o curso recebe atualizações constantes para garantir que você sempre tenha acesso às ferramentas e tendências mais recentes do mercado."
+    },
+    {
+      question: "Por quanto tempo terei acesso ao curso?",
+      answer: "Você terá acesso garantido a todo o conteúdo e a todas as futuras atualizações por um período de 12 meses (1 ano) a partir da data da sua compra."
+    },
+    {
+      question: "Consigo aplicar isso no meu negócio ou só para vender como serviço?",
+      answer: "Ambos! As habilidades que você vai aprender são extremamente versáteis. Você pode usá-las para fortalecer o branding e o marketing do seu próprio negócio ou para oferecer serviços de alto valor para outros clientes."
+    }
+  ];
+  
   return (
+
+  
     <div className="min-h-screen bg-white text-black">
       <div className="bg-purple-600 text-white text-center py-2 px-4">
         <span className="inline-flex items-center justify-center gap-2 flex-wrap">
@@ -555,6 +584,58 @@ function App() {
     </div>
   </div>
 </section>
+
+{/* ================================================================== */}
+{/* SEÇÃO DE FAQ */}
+{/* ================================================================== */}
+<section className="bg-white py-16 lg:py-24 px-6">
+  <div className="max-w-3xl mx-auto text-center">
+    {/* --- Tag e Título --- */}
+    <div className="inline-block bg-gray-100 text-gray-600 px-4 py-1 rounded-full text-xs font-medium mb-6">
+      FAQ
+    </div>
+    <h2 className="text-4xl lg:text-5xl font-bold mb-4 text-black">
+      Dúvidas Frequentes
+    </h2>
+    <p className="text-lg text-gray-600 mb-12">
+      Não saia da página com dúvidas.
+    </p>
+
+    {/* --- Lista de Dúvidas (Acordeão) --- */}
+    <div className="space-y-4 text-left">
+      {faqData.map((item, index) => (
+        <div key={index} className="border border-gray-200 rounded-xl p-1">
+          <button
+            onClick={() => setOpenFaq(openFaq === index ? null : index)}
+            className="w-full flex justify-between items-center text-lg font-medium text-black p-5 focus:outline-none"
+          >
+            <span>{item.question}</span>
+            {/* Ícone de + ou - */}
+            <span className={`transform transition-transform duration-300 ${openFaq === index ? 'rotate-45' : ''}`}>
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+            </span>
+          </button>
+          {/* Resposta que abre e fecha */}
+          <div className={`overflow-hidden transition-all duration-500 ease-in-out ${openFaq === index ? 'max-h-96' : 'max-h-0'}`}>
+            <div className="p-5 pt-0 text-gray-600">
+              {item.answer}
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    {/* --- Botão do WhatsApp --- */}
+    <a
+      href="https://wa.me/SEUNUMERO" // <-- IMPORTANTE: Troque SEUNUMERO pelo seu número de WhatsApp
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block bg-black text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-800 transition-colors shadow-lg mt-12"
+    >
+      Mais alguma dúvida? Fale comigo no WhatsApp!
+    </a>
+  </div>
+</section>      
 
       
     </div>
