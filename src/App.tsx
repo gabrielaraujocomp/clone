@@ -1,5 +1,6 @@
-function App() {
 import React, { useState } from 'react';
+
+function App() {
 
 const [openFaq, setOpenFaq] = useState<number | null>(null);
 
