@@ -116,9 +116,10 @@ const scrollToTop = () => {
           cinematográfica, cenários variados e consistência visual, tudo em
           minutos, sem precisar de câmera, fotógrafo ou locação.
         </p>
-        <button className="bg-black text-white font-semibold text-lg py-3 px-12 rounded-xl shadow-lg hover:bg-gray-800 transition-colors w-full">
+       <button className="bg-black text-white font-semibold text-lg py-3 px-12 rounded-xl shadow-lg hover:bg-gray-800 transition-colors w-full">
   Garantir acesso!
 </button>
+      </div>
 
       {/* Bloco de Imagem Única */}
       <div className="lg:w-1/2">
