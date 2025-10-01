@@ -40,6 +40,7 @@ const scrollToTop = () => {
     { src: '/img/depoimento-3.png', alt: 'Depoimento de aluno 3' },
     { src: '/img/depoimento-4.png', alt: 'Depoimento de aluno 4' },
     { src: '/img/depoimento-5.png', alt: 'Depoimento de aluno 5' },
+    { src: '/img/depoimento-6.png', alt: 'Depoimento de aluno 6' },
   ];
 
 const scrollToPricing = () => {
@@ -50,7 +51,7 @@ const scrollToPricing = () => {
 
   
     <div className="min-h-screen bg-white text-black">
-      <div className="bg-purple-600 text-white text-center py-2 px-4">
+      <div className="bg-gray-900 text-white text-center py-4 px-4">
         <span className="inline-flex items-center justify-center gap-2 flex-wrap">
           <span className="bg-white text-purple-600 px-2 py-0.5 rounded text-xs font-semibold">
             OFERTA
@@ -105,8 +106,8 @@ const scrollToPricing = () => {
 {/* ================================================================== */}
 
         
-<div className="mt-16 bg-gray-900 rounded-3xl p-8 lg:py-12 lg:px-20 text-white w-[calc(100%-2rem)] mx-auto">
-  <div className="grid md:grid-cols-2 gap-12 items-center">
+<div className="mt-16 bg-gray-900 rounded-3xl p-8 lg:py-12 lg:px-28 text-white w-[calc(100%-2rem)] mx-auto">
+  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
     
     {/* --- Coluna da Esquerda: Textos --- */}
     <div className="text-left">
@@ -129,12 +130,14 @@ const scrollToPricing = () => {
       <img
         src="/img/curso-overview.jpg"
         alt="Visão geral do curso Clone Perfeito"
-        className="w-full h-auto object-cover rounded-2xl"
+        className="rounded-2xl object-cover w-full max-w-md h-[400px]"
       />
     </div>
 
   </div>
 </div>
+
+
       
 
 <section className="py-16 lg:py-24 px-6 bg-white">
@@ -262,9 +265,9 @@ const scrollToPricing = () => {
       <div className="bg-white border border-gray-200 rounded-3xl p-8 flex flex-col text-black">
         {/* Avatares */}
         <div className="flex mb-4">
-          <img src="/img/avatar1.png" alt="Avatar 1" className="h-10 w-10 rounded-full border-2 border-white" />
-          <img src="/img/avatar2.png" alt="Avatar 2" className="h-10 w-10 rounded-full border-2 border-white -ml-3" />
-          <img src="/img/avatar3.png" alt="Avatar 3" className="h-10 w-10 rounded-full border-2 border-white -ml-3" />
+          <img src="/img/avatar1.jpg" alt="Avatar 1" className="h-10 w-10 rounded-full border-2 border-white" />
+          <img src="/img/avatar2.jpg" alt="Avatar 2" className="h-10 w-10 rounded-full border-2 border-white -ml-3" />
+          <img src="/img/avatar3.jpg" alt="Avatar 3" className="h-10 w-10 rounded-full border-2 border-white -ml-3" />
         </div>
 
         <div className="text-sm font-medium uppercase tracking-widest mb-2 text-gray-500">
@@ -466,10 +469,10 @@ const scrollToPricing = () => {
       {testimonials.map((testimonial, index) => (
         <div key={index} className="rounded-2xl shadow-lg overflow-hidden bg-white">
           <img
-            src={testimonial.src}
-            alt={testimonial.alt}
-            className="w-full h-full object-cover"
-          />
+  src={testimonial.src}
+  alt={testimonial.alt}
+  className="w-full h-auto object-contain rounded-2xl"
+/>
         </div>
       ))}
     </div>
@@ -488,23 +491,24 @@ const scrollToPricing = () => {
         <img 
           src="/img/sua-foto.jpg" // <-- TROCAR PELO NOME DA SUA FOTO
           alt="Foto de [Seu Nome]" // <-- TROCAR PELO SEU NOME
-          className="rounded-2xl shadow-xl w-full aspect-[4/5] object-cover"
+          className="rounded-2xl object-cover w-full max-w-md h-[400px]"
         />
       </div>
 
       {/* --- Coluna da Direita: Descrição --- */}
       <div className="text-black">
-        <p className="text-sm uppercase tracking-widest font-semibold text-green-600 mb-4">
-          Feito por quem é obcecado
-        </p>
         <h2 className="text-4xl lg:text-5xl font-bold leading-tight">
           Gabriel
         </h2>
+        <p className="text-sm uppercase tracking-widest font-semibold text-black-600 mb-4">
+          Feito por quem é obcecado
+        </p>
         
         <div className="space-y-4 text-gray-600 text-lg mt-6">
           <p>
             eu sempre fui movido por duas coisas: curiosidade e inconformismo. Nunca aceitei fazer parte da multidão, prefiro aprender sozinho, testar até dar certo e achar meu próprio jeito de vencer. O Clone Perfeito é a prova disso: um método que carrega meu jeito de ser, direto, prático e sem enrolação.
           </p>
+          
         </div>
       </div>
 
@@ -561,7 +565,7 @@ const scrollToPricing = () => {
       </div>
 
       {/* --- Coluna da Direita: Card de Preço (2/5 da largura) --- */}
-      <div className="relative bg-gray-900 border border-purple-500/30 rounded-2xl p-8 flex flex-col text-center shadow-2xl shadow-purple-500/20">
+      <div className="relative bg-gray-900 border border-purple-500/30 rounded-2xl p-8 flex flex-col text-center shadow-2xl shadow-purple-500/20 lg:col-span-2">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-purple-600 text-white text-xs font-bold uppercase px-4 py-1.5 rounded-full">
           Oferta Especial
         </div>
